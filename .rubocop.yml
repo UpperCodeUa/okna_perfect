@@ -1,0 +1,103 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-capybara
+  - rubocop-factory_bot
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.2.1
+  Exclude:
+    - db/**/*
+    - bin/*
+    - config/deploy.rb
+    - vendor/bundle/**/*
+    - lib/tasks/seo_fixups.rake
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - app/admin/**/*
+    - config/**/*
+    - spec/**/*
+    - lib/**/*
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: single_quotes
+  Exclude:
+    - config/**/*
+    - config.ru
+    - Rakefile
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - db/**/*
+    - config/**/*
+    - config.ru
+    - Rakefile
+
+Style/RedundantFetchBlock:
+  Exclude:
+    - config/**/*
+
+Style/GlobalStdStream:
+  Exclude:
+    - config/**/*
+
+Style/SymbolArray:
+  Exclude:
+    - config/**/*
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Exclude:
+    - config/**/*
+
+Layout/LineLength:
+  Exclude:
+    - config/**/*
+    - lib/tasks/*
+
+Rails/FilePath:
+  Exclude:
+    - config/**/*
+
+Metrics/MethodLength:
+  Max: 20
+  Exclude:
+    - db/**/*
+    - spec/**/*
+
+Rails/CreateTableWithTimestamps:
+  Exclude:
+    - db/**/*
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+RSpec/PendingWithoutReason:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 5
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Max: 20
+
+RSpec/AnyInstance:
+  Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false

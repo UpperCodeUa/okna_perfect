@@ -1,0 +1,282 @@
+main
+  section.top
+    .container
+      .inner-wrapper
+        .swiper.main-slider
+          .swiper-wrapper
+            .swiper-slide
+              = video_tag '', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto", class: 'video-swiper', data: {src: "/assets/main-slider/vid2.mp4"}
+            .swiper-slide
+              = video_tag '', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto", class: 'video-swiper', data: {src: "/assets/main-slider/vid1.mp4"}
+            .swiper-slide.loading.load
+              = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/main-slider/image-7.jpeg"}
+            .swiper-slide.loading.load
+              = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/main-slider/image-1.jpeg"}
+            .swiper-slide.loading.load
+              = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/main-slider/image-2.jpeg"}
+            .swiper-slide.loading.load
+              = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/main-slider/image-3.jpeg"}
+          .button-box
+            .swiper-pagination
+            .swiper-button-prev
+            .swiper-button-next
+        .main-item
+          .logo
+            = image_tag 'logo-main.svg', alt: 'Logo', title: 'Perfect'
+          .subtitle =t('main.subtitle')
+          .btn-wrapper#btn-products
+            .btn-products =t('main.products')
+  section.benefits
+    .container
+      h2.h2
+        = t('main.company')
+        span.red
+          = t('main.benefits')
+      .benefits-items
+        .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image4.jpeg"}
+            .item-info
+              .item-info-title hodnota
+              .item-info-text Již 17 let každý den vylepšujeme naše produkty a služby, abychom ve spolupráci s námi poskytovali zákazníkům tu nejvyšší hodnotu
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image2-new.jpg"}
+          .item-info
+            .item-info-title PQM
+            .subtitle.color Dokonalé řízení kvality
+            .item-info-text Systém kvality všech procesů založený na štíhlé výrobě zajišťuje vysokou kvalitu našich produktů a služeb
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image3.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title3')
+            .item-info-text = t('main.benefits-items.text3')
+      .inner
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image4.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title4')
+            .item-info-text = t('main.benefits-items.text4')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image5-new2.jpg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title5')
+            .item-info-text = t('main.benefits-items.text5')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image6.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title6')
+            .item-info-text = t('main.benefits-items.text6')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image7-new.jpg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title7')
+            .item-info-text = t('main.benefits-items.text7')
+      .benefits-items.adaptive
+        .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image4.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title4')
+              .item-info-text = t('page-developer.text4')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image2.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title2')
+            .item-info-text = t('main.benefits-items.text2')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image3.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title3')
+            .item-info-text = t('main.benefits-items.text3')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image4.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title4')
+            .item-info-text = t('main.benefits-items.text4')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image5.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title5')
+            .item-info-text = t('main.benefits-items.text5')
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image6.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title6')
+            .item-info-text = t('main.benefits-items.text6')
+      .inner.adaptive-inner
+        .benefits-item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image7.jpeg"}
+          .item-info
+            .item-info-title = t('main.benefits-items.title7')
+            .item-info-text = t('main.benefits-items.text7')
+  section#products.products
+    .container
+      h2.h2 = t('main.products')
+      .products-items
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image3.jpeg"}
+          .item-info
+            .item-info-title =t('navbar.windows')
+            .item-info-text =t('navbar.pvc')
+          = link_to t('main.view'), pvc_path, class: "button"
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image2.jpeg"}
+          .item-info
+            .item-info-title =t('navbar.windows')
+            - if I18n.locale == :ua
+              .item-info-text =t('main.products-items.title2')
+            - else
+              .item-info-text =t('navbar.hybrid')
+          = link_to t('main.view'), hybrid_path, class: "button"
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image1.jpeg"}
+          .item-info
+            .item-info-title =t('navbar.windows')
+            .item-info-text =t('navbar.aluminium')
+          = link_to t('main.view'), aluminium_path, class: "button"
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image4.jpeg"}
+          .item-info
+            .item-info-title =t('navbar.doors')
+          = link_to t('main.view'), pvcglass_doors_path, class: "button"
+        .item
+          .item-image.loading.load
+
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image5-new.jpg"}
+
+          .item-info
+            .item-info-title =t('navbar.hst')
+          = link_to t('main.view'), sliding_pvc_path, class: "button"
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image6.jpeg"}
+          .item-info
+            .item-info-title =t('navbar.facade')
+          / .button = t('main.view')
+      .inner
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image7.jpeg"}
+          .item-info
+            .item-info-title =t('navbar.winter_garden')
+          / .button = t('main.view')
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/products/image8.jpeg"}
+          .item-info
+            - if I18n.locale == :en
+              .item-info-title rolety
+            - else
+              .item-info-title rolety
+          = link_to t('main.view'), blinds_path, class: "button"
+  section.wholesale
+    .container
+      h2.h2
+        = t('main.wholesale')
+        span.red
+          = t('main.customers')
+      .wholesale-items
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/wholesale/image2.jpeg"}
+          .item-info
+            .item-info-title = t('navbar.architect')
+          a.button href="architect" = t('main.cooperation')
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect',class: 'position', data: {src: "/assets/wholesale/image3.jpeg"}
+          .item-info
+            .item-info-title = t('navbar.developer')
+          a.button href="developer" = t('main.cooperation')
+        .item
+          .item-image.loading.load
+            = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/wholesale/image4.jpeg"}
+          .item-info
+            .item-info-title = t('navbar.installer')
+          a.button href="installer" = t('main.cooperation')
+
+  = render 'reference'
+
+  section.about
+    .container
+      h2.h2
+        = t('main.about')
+        span.red
+          = t('main.us')
+      .about-wrapper
+        .left-about-box
+          .swiper.about-image-slider
+            .swiper-wrapper
+              / .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about/image-old.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/1.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/2.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/3.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/4.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/5.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/6.jpg"}
+              .swiper-slide.about-image.loading.load
+                = image_tag '', alt: 'About image', title: 'Perfect', data: {src: "/assets/about-slider/7.jpg"}
+          .next-about-slide
+          .prev-about-slide
+        .about-content
+          h1.about-title = t('main.about-us.title')
+          .about-text
+            p = t('main.about-us.text1')
+            p = t('main.about-us.text2')
+            p = t('main.about-us.text3')
+            p = t('main.about-us.text4')
+  section.our
+    .container
+      h2.h2
+        = t('main.our')
+        span.red
+          = t('main.achievements')
+      .our-wrapper
+        .our-item
+            .text-red = t('main.our-benefits.text7')
+            .number-wrapper
+              .number 1
+            .text-red = t('main.our-benefits.text8')
+            .text = t('main.our-benefits.text9')
+        .our-item
+            .text-red = t('main.our-benefits.text10')
+            .number-wrapper
+              .number 14
+            .text-red = t('main.our-benefits.text11')
+            .text = t('main.our-benefits.text12')
+        .our-item
+            .text-red = t('main.our-benefits.text4')
+            .number-wrapper
+              .number 18
+            .text-red = t('main.our-benefits.text5')
+            .text = t('main.our-benefits.text6')
+        .our-item
+          .text-red = t('main.our-benefits.text1')
+          .number-wrapper
+            .number 100
+            .persent %
+          .text-red = t('main.our-benefits.text2')
+          .text = t('main.our-benefits.text3')

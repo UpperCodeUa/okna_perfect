@@ -1,0 +1,27 @@
+h2 Partners
+
+= simple_form_for :partner, url: admin_partners_path, method: :get, data: { controller: 'filter-form' } do |f|
+  .form-check
+    - checked = params.dig(:partner, :partner_role) == 'brand_partner'
+    = f.radio_button :partner_role, 'brand_partner', checked: , data: { action: 'change->filter-form#submit'  }
+    = f.label :partner_role, 'Brand partner'
+
+  .form-check
+    - checked = params.dig(:partner, :partner_role) == 'architect'
+    = f.radio_button :partner_role, 'architect', checked: , data: { action: 'change->filter-form#submit'  }
+    = f.label :partner_role, 'Architect'
+
+  .form-check
+    - checked = params.dig(:partner, :partner_role) == 'developer'
+    = f.radio_button :partner_role, 'developer', checked: , data: { action: 'change->filter-form#submit'  }
+    = f.label :partner_role, 'Developer'
+
+  .form-check
+    - checked = params.dig(:partner, :partner_role) == 'mounter'
+    = f.radio_button :partner_role, 'mounter', checked: , data: { action: 'change->filter-form#submit'  }
+    = f.label :partner_role, 'Mounter'
+
+= link_to 'New Partner', new_admin_partner_path, data: { turbo: true, turbo_method: :get, turbo_frame: 'modal' }
+
+= turbo_frame_tag 'partners' do
+  = render 'partners'

@@ -1,0 +1,193 @@
+header
+    .container
+        .header-top
+            = link_to root_path do
+                = image_tag("header/logo.svg", alt: 'logo', title: 'Perfect')
+            .links-box
+                / - if user_signed_in?
+                /   - if current_user.admin?
+                /     = link_to '', admin_root_path, class: 'top-link profile'
+                /   - elsif current_user.partner?
+                /     = link_to '', account_root_path, class: 'top-link profile'
+                / - else
+                /   = link_to '', new_user_session_path, class: 'top-link profile'
+                a.contact-us-btn href="#contacts" =t('navbar.contact_us')
+                = tag.span '', class: "night-day__mode #{session[:theme] || 'light'}"
+                .open-menu-btn
+        nav.nav
+            ul.nav-menu
+                / .arrow-left
+                /     = image_tag "header/arrow.svg"
+                li.menu-item.sub-link
+                    a.open-mobile =t('navbar.windows')
+                    .submenu-wrapper
+                        .container
+                            .mobile-submenu-wrapper
+                                .mobile-submenu-nav
+                                    p.title.first-title =t('navbar.pvc')
+                                    p.title.first-title.active =t('navbar.hybrid')
+                                    p.title.first-title =t('navbar.aluminium')
+                            .submenu
+                                .submenu-item.first-sub-menu-item
+                                    = link_to t('navbar.pvc'), pvc_path, class: "item-title"
+                                    .inner-wrapper
+                                        = link_to pvc_path, class: "inner-item", title: "Perfect Passive" do
+                                            p.title Perfect Passive
+                                            .img-box
+                                                = image_tag "header/pvc/p8-passive.png", alt: 'image', title: 'Perfect'
+                                        = link_to pvc_path(anchor: "balance"), class: "inner-item", title: "Perfect Balance" do
+                                            p.title Perfect Balance
+                                            .img-box
+                                                = image_tag "header/pvc/p8.png", alt: 'image', title: 'Perfect'
+                                        = link_to pvc_path(anchor: "elegance"), class: "inner-item", title: "Perfect Elegance" do
+                                            p.title Perfect Elegance
+                                            .img-box
+                                                = image_tag "header/pvc/p7.png", alt: 'image', title: 'Perfect'
+                                        = link_to pvc_path(anchor: "energy"), class: "inner-item", title: "Perfect Energy" do
+                                            p.title Perfect Energy
+                                            .img-box
+                                                = image_tag "header/pvc/p7-energy.png", alt: 'image', title: 'Perfect'
+                                        = link_to pvc_path(anchor: "exellent"), class: "inner-item", title: "Perfect Exellent" do
+                                            p.title Perfect Exellent
+                                            .img-box
+                                                = image_tag "header/pvc/p6-energy.png", alt: 'image', title: 'Perfect'
+                                .submenu-item.first-sub-menu-item
+                                    = link_to t('navbar.hybrid'), hybrid_path, class: "item-title"
+                                    .inner-wrapper
+                                        = link_to hybrid_path, class: "inner-item", title: "H8 AluStyle HI+/SI+" do
+                                            p.title H8 AluStyle
+                                            .img-box
+                                                = image_tag "header/hybrid/hybrid1.png", alt: 'image', title: 'Perfect'
+                                        = link_to hybrid_path, class: "inner-item", title: "H8 AluGlass HI+/SI+" do
+                                            p.title H8 AluGlass
+                                            .img-box
+                                                = image_tag "header/hybrid/hybrid2.png", alt: 'image', title: 'Perfect'
+                                        = link_to hybrid_path, class: "inner-item", title: "H8 Glass HI+/SI+" do
+                                            p.title H8 Glass
+                                            .img-box
+                                                = image_tag "header/hybrid/hybrid3.png", alt: 'image', title: 'Perfect'
+                                .submenu-item.first-sub-menu-item
+                                    = link_to t('navbar.aluminium'), aluminium_path, class: "item-title"
+                                    .inner-wrapper
+                                        = link_to aluminium_path, class: "inner-item", title: "al10" do
+                                            p.title al10
+                                            .img-box
+                                                = image_tag "header/aluminium/al10.png", alt: 'image', title: 'Perfect'
+                                        = link_to aluminium_path, class: "inner-item", title: "al18" do
+                                            p.title al8
+                                            .img-box
+                                                = image_tag "header/aluminium/al8.png", alt: 'image', title: 'Perfect'
+                                        = link_to aluminium_path, class: "inner-item", title: "al17" do
+                                            p.title al7
+                                            .img-box
+                                                = image_tag "header/aluminium/al7.png", alt: 'image', title: 'Perfect'
+                li.menu-item.sub-link
+                    a.open-mobile =t('navbar.doors')
+                    / = content_tag :div, class: "submenu-wrapper doors-menu", style: pvcglass_doors_path?
+                    .submenu-wrapper.doors-menu
+                        .container
+                            .mobile-submenu-wrapper
+                                .mobile-submenu-nav
+                                    p.title.second-title =t('navbar.pvc')
+                                    p.title.second-title.active =t('navbar.aluminium')
+                            .submenu
+                                .submenu-item.second-sub-menu-item
+                                    p.item-title =t('navbar.pvc')
+                                    .inner-wrapper.row
+                                        = link_to pvcglass_doors_path, class: "inner-item #{'active-header-link' if current_page?(pvcglass_doors_path)}"
+                                            p.title =t('navbar.with-glass')
+                                            .img-box
+                                                = image_tag "header/doors/door1.png", alt: 'image', title: 'Perfect'
+                                        = link_to pvc_doors_path, class: "inner-item #{'active-header-link' if current_page?(pvc_doors_path)}"
+                                            p.title =t('navbar.without-glass')
+                                            .img-box
+                                                = image_tag "header/doors/door2.png", alt: 'image', title: 'Perfect'
+                                .submenu-item.second-sub-menu-item
+                                    p.item-title =t('navbar.aluminium')
+                                    .inner-wrapper.row
+                                        = link_to alumglass_doors_path, class: "inner-item #{'active-header-link' if current_page?(alumglass_doors_path)}"
+                                            p.title =t('navbar.with-glass')
+                                            .img-box
+                                                = image_tag "header/doors/door3.png", alt: 'image', title: 'Perfect'
+                                        = link_to alum_doors_path, class: "inner-item #{'active-header-link' if current_page?(alum_doors_path)}"
+                                            p.title =t('navbar.without-glass')
+                                            .img-box
+                                                = image_tag "header/doors/door4.png", alt: 'image', title: 'Perfect'
+                / li.menu-item.sub-link
+                /     a.open-mobile =t('navbar.hst')
+                /     .submenu-wrapper
+                /         .container
+                /             .mobile-submenu-wrapper
+                /                 .mobile-submenu-nav
+                /                     p.title.third-title PVC
+                /                     p.title.third-title.active Aluminuim
+                /             .submenu
+                /                 .submenu-item.third-sub-menu-item
+                /                     p.item-title PVC
+                /                     .inner-wrapper.row
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title HST
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system1.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title SKZ
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system3.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title SL76
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system2.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title SL70
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system5.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title SL60
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system4.png"
+                /                 .submenu-item.third-sub-menu-item
+                /                     p.item-title Aluminium
+                /                     .inner-wrapper.row
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title Hi-Finity
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system8.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title Master Patio
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system6.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title LS 130
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system10.png"
+                /                         = link_to root_path, class: "inner-item"
+                /                             p.title AL Sliding
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system7.png"
+                /                         = link_to root_path, class: "inner-item last-item"
+                /                             p.title LS 60
+                /                             .img-box
+                /                                 = image_tag "header/sliding-systems/system9.png"
+                li.menu-item
+                    - if I18n.locale == :en
+                        = link_to t('main.products-items.title5'), shutters_path
+                    - else
+                        = link_to t('main.products-items.title4'), shutters_path
+                li.menu-item
+                    = link_to t('navbar.hst'), sliding_pvc_path
+                li.menu-item
+                    = link_to "Rolety", blinds_path
+                / li.menu-item
+                /     = link_to t('navbar.facade'), root_path
+                / li.menu-item
+                /     = link_to t('navbar.winter_garden'), root_path
+                / .arrow-reverce
+                /     = image_tag "header/arrow.svg"
+            ul.nav-menu
+                li.menu-item
+                    = link_to t('navbar.architect'), architect_path
+                li.menu-item
+                    = link_to t('navbar.developer'), developer_path
+                li.menu-item
+                    = link_to t('navbar.installer'), installer_path
+            a.contact-us-btn.adaptive href="#contacts" =t('navbar.contact_us')

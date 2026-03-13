@@ -1,0 +1,419 @@
+main.page-sliding
+  .container
+    section.top.category
+      .box
+        .inner-wrapper
+          .swiper.hybrid
+            .swiper-wrapper
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/sliding-systems/pvc/slider/img1.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/sliding-systems/pvc/slider/img2.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/sliding-systems/pvc/slider/img3.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/sliding-systems/pvc/slider/img4.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/sliding-systems/pvc/slider/img5.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/sliding-systems/pvc/slider/img6.jpg"}
+            .button-box
+              .swiper-pagination
+              .swiper-button-prev
+              .swiper-button-next
+          .main-item
+            .subtitle =t('sliding.title')
+    section.category
+      .box
+        h2.h2
+          | VEKA
+          span.red ecosol 70
+        .products-wrapper
+          .left
+            = video_tag 'sliding-systems/pvc/video/ecosol.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .right
+            .top-card
+              h2.h2.transform VEKA <span class="red"> ECOSOL 70</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text1')
+                  p 70 mm
+                .line
+                  p.weight  =t('sliding.text2')
+                  p 2,3 W/m2k
+                .line
+                  p.weight  =t('sliding.text3')
+                  p 70 mm
+                .line
+                  p.weight  =t('sliding.text4')
+                  p 24 mm
+                .line
+                  p.weight  =t('sliding.text5')
+                  p quadram 1,5 mm / u-shaped 2,0 mm
+                .line
+                  p.weight  =t('sliding.text6')
+                  p  =t('sliding.text7')
+                .line
+                  p.weight  =t('sliding.text8')
+                  .logo-wrapper
+                    .logo
+                      = image_tag 'sliding-systems/pvc/wink.jpg', alt: 'logo', title: 'Perfect'
+                .line
+                  p.weight  =t('sliding.text9')
+                  .colors-box
+                    .color.white  =t('sliding.text10')
+                    .color.caramel  =t('sliding.text11')
+                    .color.brown  =t('sliding.text12')
+        .options-wrapper
+          h6.options-title  =t('sliding.opening')
+          .images-wrapper
+            .option
+              .image
+                = image_tag 'sliding-systems/pvc/ecosol/img1.jpg', alt: 'image', title: 'Perfect'
+              p Scheme: A (f)
+            .option
+              .image
+                = image_tag 'sliding-systems/pvc/ecosol/img2.jpg', alt: 'image', title: 'Perfect'
+              p Scheme: C (f)
+            .option
+              .image
+                = image_tag 'sliding-systems/pvc/ecosol/img3.jpg', alt: 'image', title: 'Perfect'
+              p Scheme: D (f)
+            .option
+              .image
+                = image_tag 'sliding-systems/pvc/ecosol/img4.jpg', alt: 'image', title: 'Perfect'
+              p Scheme: F (f)
+    section.category
+      .box
+        h2.h2
+          =t('sliding.tild')
+          span.red =t('sliding.slide')
+        .products-wrapper
+          .left.s160
+            = video_tag 'sliding-systems/pvc/video/160S.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .left.z160
+            = video_tag 'sliding-systems/pvc/video/160Z.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .left.z200
+            = video_tag 'sliding-systems/pvc/video/160Z.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .left.pas
+            = video_tag 'sliding-systems/pvc/video/Pass.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .right
+            .top-card.s160
+              h2.h2.transform WH DUO PORT <span class="red"> 160 S</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text14')
+                  p 160
+                .line
+                  p.weight =t('sliding.text15')
+                  p S
+                .line
+                  p.weight =t('sliding.text16')
+                  p 660
+                .line
+                  p.weight =t('sliding.text17')
+                  p 1640
+                .line
+                  p.weight =t('sliding.text18')
+                  p 700
+                .line
+                  p.weight =t('sliding.text19')
+                  p 2500
+                .line
+                  p.weight =t('sliding.text13')
+                  .logo-wrapper
+                    .logo
+                      = image_tag 'sliding-systems/pvc/wink.jpg', alt: 'logo', title: 'Perfect'
+                .line
+                  p.weight =t('sliding.text9')
+                  .colors-box
+                    .color.white =t('sliding.text10')
+                    .color.anthracite =t('sliding.text21')
+                    .color.brown =t('sliding.text12')
+            .top-card.z160
+              h2.h2.transform WH DUO PORT <span class="red"> 160 Z</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text14')
+                  p 160
+                .line
+                  p.weight =t('sliding.text15')
+                  p Z
+                .line
+                  p.weight =t('sliding.text16')
+                  p 760
+                .line
+                  p.weight =t('sliding.text17')
+                  p 1640
+                .line
+                  p.weight =t('sliding.text18')
+                  p 950
+                .line
+                  p.weight =t('sliding.text19')
+                  p 2500
+                .line
+                  p.weight =t('sliding.text13')
+                  .logo-wrapper
+                    .logo
+                      = image_tag 'sliding-systems/pvc/wink.jpg', alt: 'logo', title: 'Perfect'
+                .line
+                  p.weight =t('sliding.text9')
+                  .colors-box
+                    .color.white =t('sliding.text10')
+                    .color.anthracite =t('sliding.text21')
+                    .color.brown =t('sliding.text12')
+            .top-card.z200
+              h2.h2.transform WH DUO PORT <span class="red"> 200 Z</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text14')
+                  p 200
+                .line
+                  p.weight =t('sliding.text15')
+                  p Z
+                .line
+                  p.weight =t('sliding.text16')
+                  p 1100
+                .line
+                  p.weight =t('sliding.text17')
+                  p 1640
+                .line
+                  p.weight =t('sliding.text18')
+                  p 950
+                .line
+                  p.weight =t('sliding.text19')
+                  p 2500
+                .line
+                  p.weight =t('sliding.text13')
+                  .logo-wrapper
+                    .logo
+                      = image_tag 'sliding-systems/pvc/wink.jpg', alt: 'logo', title: 'Perfect'
+                .line
+                  p.weight =t('sliding.text9')
+                  .colors-box
+                    .color.white =t('sliding.text10')
+                    .color.anthracite =t('sliding.text21')
+                    .color.brown =t('sliding.text12')
+            .top-card.pas
+              h2.h2.transform WH DUO PORT <span class="red"> PAS</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text14')
+                  p 160
+                .line
+                  p.weight =t('sliding.text16')
+                  p 790
+                .line
+                  p.weight =t('sliding.text17')
+                  p 1640
+                .line
+                  p.weight =t('sliding.text18')
+                  p 690
+                .line
+                  p.weight =t('sliding.text19')
+                  p 2500
+                .line
+                  p.weight =t('sliding.text13')
+                  .logo-wrapper
+                    .logo
+                      = image_tag 'sliding-systems/pvc/wink.jpg', alt: 'logo', title: 'Perfect'
+                .line
+                  p.weight =t('sliding.text9')
+                  .colors-box
+                    .color.white =t('sliding.text10')
+                    .color.anthracite =t('sliding.text21')
+                    .color.brown =t('sliding.text12')
+            .types-wrapper
+              .types-sliding
+                .swiper-wrapper
+                  .swiper-slide
+                    .type#s160
+                      .name WH DUO PORT
+                      .model 160 s
+                  .swiper-slide
+                    .type#z160
+                      .name WH DUO PORT
+                      .model 160 z
+                  .swiper-slide
+                    .type#z200
+                      .name WH DUO PORT
+                      .model 200 Z
+                  .swiper-slide
+                    .type#pas
+                      .name WH DUO PORT
+                      .model PAS
+              .button.swiper-button-prev.priv
+              .button.swiper-button-next.priv
+        .options-wrapper
+          h6.options-title =t('sliding.opening')
+          .inner-box.s160
+            .images-wrapper
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160s/img1.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160s/img2.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160s/img3.jpg', alt: 'image', title: 'Perfect'
+          .inner-box.z160
+            .images-wrapper
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160z/img1.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160z/img2.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160z/img3.jpg', alt: 'image', title: 'Perfect'
+          .inner-box.z200
+            .images-wrapper
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160z/img1.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160z/img2.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/160z/img3.jpg', alt: 'image', title: 'Perfect'
+          .inner-box.pas
+            .images-wrapper
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/pas/img1.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/pas/img2.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/pas/img3.jpg', alt: 'image', title: 'Perfect'
+    section.category
+      .box
+        h2.h2
+          | VEKA
+          span.red MOVE
+        .products-wrapper
+          .left
+            = video_tag 'sliding-systems/pvc/video/VekaMove.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .right
+            .top-card
+              h2.h2.transform VEKA <span class="red"> MOVE</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text25')
+                  p 4200 мм
+                .line
+                  p.weight =t('sliding.text26')
+                  p 3500 мм
+                .line
+                  p.weight =t('sliding.text27')
+                  p 2480 мм
+                .line
+                  p.weight =t('sliding.text28')
+                  p 2380 мм
+                .line
+                  p.weight =t('sliding.text22')
+                  p 1979 мм
+                .line
+                  p.weight =t('sliding.text23')
+                  p 200 kg
+                .line
+                  p.weight =t('sliding.text9')
+                  .colors-box
+                    .color.white=t('sliding.text10')
+                    .color.anthracite =t('sliding.text21')
+                    .color.brown =t('sliding.text12')
+        .options-wrapper
+          h6.options-title =t('sliding.opening')
+          .images-wrapper
+            .option
+              .image
+                = image_tag 'sliding-systems/pvc/move/img1.jpg', alt: 'image', title: 'Perfect'
+              p Scheme: A (f)
+    section.category
+      .box.last
+        h2.h2
+          =t('sliding.lift')
+          span.red =t('sliding.slide')
+        .products-wrapper
+          .left.standart
+            = video_tag 'sliding-systems/pvc/video/motion-standart.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .left.max
+            = video_tag 'sliding-systems/pvc/video/motion-max.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto"
+          .right
+            .top-card
+              h2.h2.transform.standart VEKAMOTION <span class="red"> 82 STANDART</span>
+              h2.h2.transform.max VEKAMOTION <span class="red"> 82 MAX</span>
+              .subtitle =t('page-hybrid.technical.title')
+              .card-content
+                .line
+                  p.weight =t('sliding.text29')
+                  p 2200
+                .line
+                  p.weight =t('sliding.text30')
+                  p 2500
+                .line
+                  p.weight =t('sliding.text31')
+                  p 3500
+                .line
+                  p.weight =t('sliding.text32')
+                  p 4500
+                .line
+                  p.weight =t('sliding.text13')
+                  .logo-wrapper
+                    .logo
+                      = image_tag 'sliding-systems/pvc/wink.jpg', alt: 'logo', title: 'Perfect'
+                .line
+                  p.weight =t('sliding.text9')
+                  .colors-box
+                    .color.white =t('sliding.text10')
+                    .color.anthracite =t('sliding.text21')
+                    .color.brown =t('sliding.text12')
+            .types-wrapper
+              .types-sliding-motion
+                .swiper-wrapper
+                  .swiper-slide
+                    .type#standart
+                      .name VEKAMOTION
+                      .model 82 STANDART
+                  .swiper-slide
+                    .type#max
+                      .name VEKAMOTION
+                      .model 82 MAX
+        .options-wrapper
+          h6.options-title =t('sliding.opening')
+          .inner-box.standart
+            .images-wrapper
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-standart/img1.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-standart/img2.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-standart/img3.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-standart/img4.jpg', alt: 'image', title: 'Perfect'
+          .inner-box.max
+            .images-wrapper
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-max/img1.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-max/img2.jpg', alt: 'image', title: 'Perfect'
+              .option
+                .image
+                  = image_tag 'sliding-systems/pvc/motion-max/img3.jpg', alt: 'image', title: 'Perfect'
+

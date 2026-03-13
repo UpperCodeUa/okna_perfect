@@ -1,0 +1,160 @@
+footer
+  #contacts
+  .container
+    h3.footer-title =t('footer.contacts')
+    .top
+      .left
+        .box
+          .numbers
+            h5.footer-text.subtitle =t('footer.phone')
+            ul.numbers-list
+              a.new-phones href="tel:420777999251"
+                .top-content
+                  = image_tag "header/phone1.jpg", alt: 'image', title: 'image'
+                  .name Josef Zemanec Majitel
+                .num +420 777 999 251
+              a.new-phones href="tel:420777702977"
+                .top-content
+                  .img-box
+                    = image_tag "header/phone3.jpg", alt: 'image', title: 'image'
+                  .name Bogdana Semedii Manager
+                .num +420 777 702 977
+              .text-ico
+                p NÁZEV společnosti:
+                p OKNA-PERFECT s.r.o.
+                p IČO: 22196358
+        .email
+          h5.footer-text.subtitle e-mail
+          a.footer-text href="mailto:okna.perfect@seznam.cz" okna.perfect@seznam.cz
+        .adress
+          h5.footer-text.subtitle =t('footer.adress')
+          a.footer-text target="_blank" href="https://maps.app.goo.gl/bT48bwiEv8nTH7qRA" Spojovací 17, Praha 9 190 00
+        .bottom
+          .social
+            h5.footer-text.subtitle =t('footer.social')
+            .social-wrapper
+              a.facebook target="_blanc" href="https://www.facebook.com/share/17sLo7tVFC/?mibextid=wwXIfr"
+              a.instagram target="_blanc" href="https://www.instagram.com/oknaperfect?igsh=cnp3ZTR5YjNmaDd4"
+      .right
+        = form_with url: send_form_index_path, method: :post, html: { class: 'footer-form contact form', id: 'form1' }, local: true do |f|
+          .form-title =t('footer.form.title')
+          .form-radio
+            .radio-wrapper
+              input#customer.input checked="" type="radio" name="person" value="Customer"
+              label.label for="customer" =t('footer.form.label1')
+              input#dealer.input type="radio" name="person" value="Dealer"
+              label.label for="dealer" =t('footer.form.label2')
+              input#architect.input type="radio" name="person" value="Architect"
+              label.label for="architect" =t('navbar.architect')
+              input#developer.input type="radio" name="person" value="Developer"
+              label.label for="developer" =t('navbar.developer')
+              input#installer.input type="radio" name="person" value="Installer"
+              label.label for="installer" =t('navbar.installer')
+          .form-radio
+            h5.form-subtitle =t('section-help.title3')
+            .radio-wrapper
+              input#proposal.input checked="" type="radio" name="contact" value="Get a proposal"
+              label.label for="proposal" =t('section-help.item.title1')
+              input#message.input type="radio" name="contact" value="Get a price quote"
+              label.label for="message" =t('section-help.item.title2')
+              input#video-meeting.input type="radio" name="contact" value="Get technical advice"
+              label.label for="video-meeting" =t('section-help.item.title3')
+              input#get-advice.input type="radio" name="contact" value="Get advice on franchise"
+              label.label for="get-advice" =t('section-help.item.title9')
+          .form-radio
+            h5.form-subtitle =t('section-help.title4')
+            .radio-wrapper
+              input#watsapp.input checked="" type="radio" name="socialnet" value="WhatsApp"
+              label.label for="watsapp" =t('section-help.item.title4')
+              input#telegram.input type="radio" name="socialnet" value="Telegram"
+              label.label for="telegram" =t('section-help.item.title5')
+              input#viber.input type="radio" name="socialnet" value="Viber"
+              label.label for="viber" =t('section-help.item.title6')
+              input#mail.input type="radio" name="socialnet" value="Email"
+              label.label for="mail" =t('section-help.item.title7')
+              input#video-conf.input type="radio" name="socialnet" value="Video Conference"
+              label.label for="video-conf" =t('section-help.item.title8')
+          .form-text
+            .inner
+              = f.text_field :username, required: true, autocomplete: "off", placeholder: "Zadejte své jméno", class: "name-input"
+              = f.text_field :phone_code, required: true ,autocomplete: "off", placeholder: t('page-franchise.join.code'), class: "phone-input"
+              = f.telephone_field :phone, required: true, autocomplete: "off", placeholder: "234-567-890", minlength: "7", class: "phone-input"
+            .inner
+              = f.text_field :country, required: true, autocomplete: "off", placeholder: "Zadejte svou zemi", class: "country-input"
+              = f.text_field :city, required: true, autocomplete: "off", placeholder: "Zadejte své město", class: "city-input"
+              = f.email_field :email, required: true ,autocomplete: "off", placeholder: t('page-franchise.join.email'), class: "name-input"
+            = f.text_area :text, placeholder: "Popište svou otázku", class: "textarea"
+            .hcaptcha class="h-captcha" data-sitekey="a1f6392c-9276-48fe-9338-82e6b95254fa" data-id="captcha1"
+            = f.hidden_field :hcaptcha_response, id: 'hcaptcha-response-1'
+            = f.submit t('footer.call'), class: "button", data: { action: 'submit' }
+    .links
+      .links-wrapper
+        ul.links-list
+          li.link
+            a =t('navbar.windows')
+            ul.sublink-list
+              li.sublink
+                = link_to t('navbar.hybrid'), hybrid_path
+              li.sublink
+                = link_to t('navbar.pvc'), pvc_path
+              li.sublink
+                = link_to t('navbar.aluminium'), aluminium_path
+      .links-wrapper
+        ul.links-list
+          li.link
+            = link_to t('navbar.doors'), pvcglass_doors_path
+          li.link
+            = link_to t('navbar.hst'), sliding_pvc_path
+          li.link
+            - if I18n.locale == :en
+              = link_to t('main.products-items.title5'), blinds_path
+            - else
+              = link_to t('main.products-items.title4'), blinds_path
+      .links-wrapper
+        ul.links-list
+          li.link
+            a href="architect" =t('navbar.architect')
+          li.link
+            a href="developer" =t('navbar.developer')
+          li.link
+            a href="installer" =t('navbar.installer')
+      .links-wrapper
+        ul.links-list
+          li.link
+            a href="contacts" =t('footer.contacts')
+    .links.mobile
+      .links-wrapper
+        ul.links-list
+          li.link
+            a =t('navbar.windows')
+            ul.sublink-list
+              li.sublink
+                = link_to t('navbar.hybrid'), hybrid_path
+              li.sublink
+                = link_to t('navbar.pvc'), pvc_path
+              li.sublink
+                = link_to t('navbar.aluminium'), aluminium_path
+          li.link
+            = link_to t('navbar.doors'), pvcglass_doors_path
+          li.link
+            - if I18n.locale == :en
+              = link_to t('main.products-items.title5'), blinds_path
+            - else
+              = link_to t('main.products-items.title4'), blinds_path
+          li.link
+            = link_to t('navbar.hst'), sliding_pvc_path
+      .links-wrapper
+        ul.links-list
+          li.link
+            a href="architect" =t('navbar.architect')
+          li.link
+            a href="developer" =t('navbar.developer')
+          li.link
+            a href="installer" =t('navbar.installer')
+          li.link
+            a href="contacts" =t('footer.contacts')
+    .develop
+      a.footer-text target="_blanc" href="https://theuppercode.com/" Developed by The UpperCode 2023
+
+.massege-info
+  p Sent successfully!

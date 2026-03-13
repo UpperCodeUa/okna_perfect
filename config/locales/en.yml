@@ -1,0 +1,560 @@
+en:
+  de: DE
+  en: EN
+  it: IT
+  es: ES
+  ua: UA
+  nl: NL
+  fr: FR
+  lt: LT
+  cs: CS
+  navbar:
+    windows: Windows
+    doors: Doors
+    hst: Sliding-Systems
+    facade: Facades
+    winter_garden: Winter Gardens
+    partner: Brand partner
+    architect: Architect
+    developer: Developer
+    installer: Installer
+    catalogue: Catalogue
+    aluminium: Aluminium
+    hybrid: Hybrid
+    pvc: PVC
+    contact_us: Contact us
+    with-glass: With Glass
+    without-glass: Without Glass
+    franchise: Franchise
+  main:
+    subtitle: The first company Perfect WAD [Windows Aluminum Doors] Group was established in 2005
+    products: Products
+    company: Company
+    benefits: Benefits
+    view: View
+    wholesale: we invite
+    customers: you to cooperation
+    reference: Reference
+    book: book
+    private: private
+    commerce: commerce
+    about: about
+    us: us
+    our: our
+    achievements: achievements
+    become-partner: Become a Partner
+    cooperation: Benefits of cooperation
+    consultation-btn: Get a consultation
+    benefits-items:
+      title1: value
+      text1: Every day for 17 years we have been improving our products and services to provide customers with the highest value in cooperation with us
+      title2: high quality products
+      subtitle2: perfect quality managment
+      text2: Perfect Quality Managment the quality system of all processes based on Lean Production ensures the high quality of our products and services
+      title3: quick production
+      text3: Fabrication of structures is a significant advantage for our customers
+      title4: ce
+      text4: High-quality components certified in the European Union guarantee the quality, durability and high performance of our structures
+      title5: first-class service
+      text5: We value every customer, so each client receives maximum support from a personal manager
+      title6: delivery to a client
+      text6: We provide delivery of orders to the client, as well as directly to the installation site, delivery is included in the price
+      title7: We are able to be competitive
+      text7: Working with us, our clients receive high quality structures at the best price
+    products-items:
+      title4: Blinds
+      title5: Shutters
+    about-us:
+      title: Perfect wad group
+      text1: The first company of the Perfect WAD Group, Perfect WIN, started producing PVC windows 17 years ago.  In 2015, Perfect AL started producing aluminum structures, aluminum and ventilated facades.
+      text2: Innovation is part of the company's DNA. In 2013, the company made a breakthrough in the market by launching windows based on a 6-chamber system with an installation depth of 70 mm. In 2015, the company introduced an exclusive and innovative product - blinds integrated into a double-glazed unit (Comfort Life).
+      text3: In 2023, the company introduced innovative Hybrid windows to the market that combine the advantages of aluminum and PVC.  The entire product line of the company - aluminum windows and structures, hybrid windows and PVC windows - is available in the markets of Europe, the USA and Canada.
+      text4: We have offices in Poland, Romania, and Ukraine. We are open to cooperation and strive to build long-term relationships with our customers, trying to be a reliable partner.
+    our-benefits:
+      text1: We produce up to
+      text2: of our products using renewable energy.
+      text3: One of the first companies in Europe to do so.
+      text4: Over
+      text5: years
+      text6: we have been producing windows and doors
+      text7: Over
+      text8: million
+      text9: manufactured window structures
+      text10: Export to
+      text11: countries
+      text12: OF the world
+  page-contacts:
+    button: Scroll to contacts
+  page-partner:
+    become: Read more
+    title1: brand partner
+    title2: client generation
+    title4: Full range of products
+    title8: Ready-made SUCCESSFUL business. PERFECT FRANCHISE
+    title5: Uniqueness
+    title6: Exclusive
+    text5: Using our brand, you will be able to stand out among other window sellers and make unique sales offers to customers.
+    text6: Having received the status of a Brand Partner, you will receive exclusive rights to sell our products in the designated territory
+    text1: By using our brand, you will be able to stand out from other window sellers and make unique sales offers to your customers. Having received the BP status, you will receive exclusive rights to sell our products in the assigned territory
+    text2: Our brand partners are listed on our company's website, and we refer all clients directly to our partner
+    text3: 'You can satisfy the needs of each client by offering a wide range of products: aluminum structures, PVC structures and a novelty - hybrid windows'
+    text8: ""
+  page-architect:
+    title1: We strive to be a responsible partner
+    title2: Realize the most powerful ideas
+    title3: Rewards
+    title4: Architectural competition
+    title5: Technical support for architects
+    title6: First-class service for every partner
+    text1: Responsible partnership is the way to success in every project
+    text2: Our experience and competencies allow us to implement solutions of the highest level of technical complexity
+    text3: Register and get rewards for every project you complete
+    text4: Each of our architectural partners participates in the annual competition for the best PERFECT FUTURE project. The winners receive special rewards
+    text5: Our technical experts provide proper support to find the best solutions. We speak the language of our partners
+    text6: We value each partner because each partner receives maximum support from a personal manager
+  page-developer:
+    text3: Working with us, our developers receive high quality structures at the best price
+    text4: "We offer a full range of solutions for each project: aluminum structures, PVC structures and hybrid systems. This allows developers to get all the necessary solutions from one partner"
+    title5: Technical support for Developers
+  page-installer:
+    title1: Mutually beneficial partnership
+    title2: Shortest possible time
+    title3: Products for local markets
+    title4: Best prices
+    title5: Online technical support for installers
+    text1: We help our installer partners get new customers
+    text2: We provide our partners with the shortest possible time
+    text3: We manufacture products that fully meet the requirements of the markets of each country in which we operate
+    text4: Our offers allow our partners to be competitive in local markets
+    text5: Our specialists provide online technical support, even during installation
+  page-hybrid:
+    title1: what is
+    title2: hybrid windows
+    info1: If your budget is not limited, then, from the point of view of durability, choosing aluminum structures is the best solution. If you aim to rationally invest funds in durable solutions, then the choice of hybrid windows is obvious. Plastic windows are not a rational choice in terms of durability.
+    info2: Hybrid windows provide the highest indoor comfort. The third sealing circuit provides high protection against blowing/water penetration in strong gusts of wind and rain. Among aluminum structures, comfort of this level is provided only by profile systems of the highest class, HI+ level. Cheaper aluminum structures disappoint buyers with uncomfortable feelings in the area of aluminum profiles (cold in winter, hot in summer).
+    info3: Thanks to the thermal insulation performance (thermal conductivity of the profile Uf=1.1), they provide the highest cost savings in heating and air conditioning of premises.
+    info4: According to the statements of the most authoritative architects, the use of natural materials such as aluminum provides a prestigious look to the houses, which accordingly significantly increases the market value of the house in general. In the budget of the house, the difference between the cost of windows of different classes is only a few %. Therefore, hybrid windows are the most profitable investment in terms of ratio.
+    info5: Exclusive solutions, such as, for example, blinds integrated into the glass unit, raise the comfort of using hybrid windows to the highest level.
+    item-main-title1: durability
+    item-main-title2: comfort
+    item-main-title3: efficiency
+    item-main-title4: mechanical safety
+    item-main-title5: value & price
+    item-main-title6: certificates and warranty
+    item-main-title7: comfort life
+    item-info:
+      text1: Alluminium
+      text2: 50 years
+      text3: Hybrid
+      text4: 35 years
+      text5: 10-20 years
+      text6: High thermal  insulation
+      text7: High sound  insulation
+      text8: Blinds integrated in glass Manual/electric (options)
+      text9: Comfort life
+      text10: Thermal efficiency profile system with 3 gasket
+      text11: Passive Glass
+      text12: Triple glassing 48mm at standard
+      text13: Aluminum profile
+      text14: outside
+      text15: Metal protection against  external influences
+      text16: Glued insulated glass unit
+      text17: Anti-burglary fittings system
+      text18: Anti-burglary window hoppe handle
+      text19: Components have certificates
+      text20: Production quality management system
+      text21: Logistics quality management system
+      text22: Opening 90°
+      text23: Design & Style
+      text24: Mechanical control
+      text25: Durability
+      text26: Safe for animals
+      text27: Remote control
+      text28: Always clean
+      text29: Safe for kids
+    selected: Selected
+    technical:
+      title: Technical Specifics
+      text1: Aluminium
+      text2: Integrated in PVC
+      text3: Style
+      text4: Aluminum windows
+      text5: Frame
+      text6: Comfort life
+      text7: Blinds integrated into the glass unit mechanical / electronic control
+      text8: Passive Glass
+      text9: Thermally efficient profile system with 3 sealing circuits
+      text10: M Safety
+      text11: 4 systems in the base
+      text12: Sash
+    specifics:
+      text1: hybrid systems
+      text2: series (category of 80-90 mm systems), glued double-glazed unit 48 mm, sash section width 100 mm, frame installation depth 82 mm
+      text3: frame and sash with integrated aluminium on the outside, aluminium window design
+      text4: 48 mm glazed double-glazed unit, recommended for passive and energy-saving buildings
+      text5_html: high insulation (ultra-high thermal insulation <span class="no-wrap">Uf = 1,1</span>)
+      text6: sound insulation (ultra-high sound insulation)
+      text7: built-in protection "anti-burglary window"
+      text8: blinds integrated into the glass unit, with electronic or mechanical control (optional)
+      text9: developed and certified by the EU
+      text10: series (category 80-90 mm systems), mounting frame depth 82 mm
+      text11: frame with integrated aluminium on the outside
+      text12: all-glass sash with integrated aluminium on the outside
+      text13: series (category 80-90 mm systems), mounting frame depth 76 mm
+      text14: all-glass sash with integrated aluminium on the outside, laminated or white frame
+  page-pvc:
+    title2: PERFECT windows
+    info1: Windows from class A profile systems provide the highest indoor comfort. Windows from profile systems of classes B and C (especially critical for laminated ones) have a high probability of deformation, which leads to blowing and leakage of windows and, accordingly, discomfort for residents.
+    info2: Windows from profile systems of class A have the highest indicators of economy (heat conductivity index) for heating and air conditioning of premises. In contrast to them, profile systems of lower classes have 30-50% higher thermal conductivity, which accordingly increases costs.
+    info3: In the budget of the house, the difference between the cost of windows of different classes is only a few %. Installation of class A windows increases the value and, accordingly, the value of the house or apartment. This makes the choice of PerfectWin Class A windows a profitable investment that will bring you the joy of use for many years.
+    info4: PerfectWin products are made of high-quality components, the quality of which is confirmed by European certificates, with strict adherence to technological norms of the Veka company. By ordering window structures and doors from our brand partner or on the website, you will receive a 5-year warranty on window structures.
+    info5: Unique and exclusive solutions, such as, for example, Perfect Comfort Life - blinds integrated into the glass unit, raise the comfort of using PerfectWin windows to the highest level.
+    item-info:
+      text1: Manually steering
+      text2: Long lifetime
+      text3: Pilot steering
+      text4: Auto
+    specifics:
+      text1: PVC systems, VEKA 82
+      text2: series (competitor to 80-90 mm systems)
+      text3: profile class 3 mm
+      text4: the highest thermal insulation Uf = 1.0, recommended for energy-saving and passive houses
+      text5: PVC systems, VEKA 70
+      text6: series (competitor to 70-73 mm systems)
+      text7: high insulation (high thermal insulation Uf=1.3)
+      text8: PVC systems, WHS by VEKA
+      text9: profile class 2.7 mm
+      text10: high insulation (high thermal insulation Uf=1.2)
+      text11: PVC system, VEKA76
+      text12: High thermal insulation Uf=1.2, recommended for energy-efficient buildings
+      text13: 6 series (competitor to 60 mm systems)
+      text14: high insulation (high thermal insulation Uf=1.5)
+  page-aluminium:
+    text1: Thermal insulation Uw
+    text2: The maximum size of the sash H*W
+    text3: Maximum sash width
+    text4: Maximum sash weight
+    text5: Installation depth of sash
+    text6: Maximum thickness of the fill
+    text7: Tightness
+    text8: Water resistance
+    text9: Stability for wind loads
+    text10: Acoustics - Rw(C;Ctr)
+    text11: Durability
+    windows: Aluminium Windows
+  section-help:
+    title3: The essence of your request
+    title4: Choose a convenient way of communication with you
+    item:
+      title1: Get an offer on terms of cooperation
+      title2: Get a price quote for products
+      title3: Get technical advice
+      title4: WhatsApp
+      title5: Telegram
+      title6: Viber
+      title7: E-Mail
+      title8: Request for a video conference
+      title9: Get advice on a franchise
+  footer:
+    contacts: Contacts
+    phone: phone number
+    adress: adress
+    call: Send
+    social: social
+    form:
+      title: contact with me. I Am
+      subtitle: I Am
+      label1: Customer
+      label2: Dealer
+      placeholder1: Type your name
+      placeholder2: Describe your question
+  error:
+    title: Oops! Lost in the digital wilderness?
+    text: Our apologies for the 404 detour. Hit the back button or visit our homepage to get back on track. Thanks for your patience!
+    back: Back
+    home: Home
+  meta:
+    home:
+      title: Perfect WAD Group
+      description: The first company Perfect WAD [Windows Aluminum Doors] Group was established in 2005
+  page-franchise:
+    intro:
+      title: Become a part of an experienced and successful company
+      subtitle: Franchise for a salon specialising in selling windows “Perfect WAD Group”
+      btn: franchise details
+      text1: years on the market
+      text2: salons
+      text3: manufactured structures
+    leadership:
+      title1: On the way to
+      title2: " leadership"
+      text1: "The basis of “Perfect WAD Group” is a:"
+      text2: quality product
+      text3: powerful custom service
+      text4: constant improvement
+      text5: "Today, our company takes pride in the fact that, with the help of advanced technologies, professional engineers, and creative designers, we can offer customers windows that epitomise the word: 'Impeccable'."
+    advantages:
+      title1: Advantages of the
+      title2: " “Perfect WAD Group” franchise"
+      text1: Own construction production (PVC and aluminum windows and doors, shutters, sliding and facade systems)
+      text2: A team of experienced specialists
+      text3: Clear understanding of the market, consumer needs, modern trends
+      text4: Simple understandable business model
+      text5: Low investment and quick payback
+      text6: Refined standards of business processes
+      text7: Personnel training
+    importantly:
+      title1: And most
+      title2: " importantly:"
+      text1: we know what a franchise network is and how it works
+      text2: For a quick start and profitable operation of your business, we leverage the experience of 30 operational “Perfect WAD Group” franchise salons
+    partners:
+      title1: Working and logistics with
+      title2: " partners in 12 countries worldwide"
+      country1: Spain
+      country2: Italy
+      country3: Belgium
+      country4: Netherlands
+      country5: Germany
+      country6: Switzerland
+      country7: USA
+      country8: Lithuania
+      country9: Poland
+      country10: France
+      country11: Canada
+      country12: Ukraine
+      country13: Hungary
+      country14: Czech Republic
+      country15: Slovakia
+      submit: SUBMIT YOUR APPLICATION
+    salon:
+      title1: Your
+      title2:  " “Perfect WAD Group” salon"
+      text1: The area is
+      text2: 30 m2
+      text3: The staff is
+      text4: 1 salesperson-consultant
+      text5: The exhibition assortment is
+      text6: curated by the Central Office team
+      text7: Located
+      text8: in an area with constant traffic and developed infrastructure
+      text9: Net profit
+      text10: starting from €3500 per month
+      btn: FINANCIAL MODEL
+    support:
+      title1: Support from the
+      title2: " company"
+      text1: Recommendations for finding a room, coordination
+      text2: Provision of recommendations on the manufacture of expositors for exhibition samples
+      text3: Transfer of business process standards
+      text4: Instructions on finding and hiring employees
+      text5: Training of franchisees and salon staff at the Perfect Academy, regular professional development
+      text6: Delivery of products to the franchisee's warehouse
+      text7: Installation of CRM system, accounting system, window calculation program
+      text8: Inclusion of the franchisee salon in the network-wide marketing strategy
+      text9: Posting information about the salon on the official website
+      text10: Provision of ready-made and development of new layouts of advertising products
+      text11: Provision of targeting and contextual advertising services, promotion in social networks
+      text12: Production of products and individual orders
+      text13: Development of product presentation materials
+      text14: Analytics of salon work
+      text15: Providing recommendations to improve sales
+      text16: Working with customer feedback
+    slider:
+      text: WE WILL WORK IN SYNERGY TO ACHIEVE THE BEST RESULTS
+    tasks:
+      title1: Tasks of a partner of
+      title2: " “Perfect WAD Group”"
+      subtitle: "Your tasks as a “Perfect WAD Group” franchisee will include:"
+      text1: Signing a lease agreement
+      text2: Hiring employees, monitoring their work
+      text3: Processing of incoming applications
+      text4: Consulting clients, conducting product presentations
+      text5: Storage of products in the warehouse
+      text6: Work with installation crews to install products at the client's location
+      text7: Compliance with company standards
+      text8: Conducting local marketing events
+    stages:
+      title1: Stages of opening the
+      title2: " “Perfect WAD Group” salon"
+      stage1: Discussion of terms of cooperation and signing of the franchise agreement
+      stage2: Signing a lease agreement
+      stage3: Carrying out repair work, installing equipment, and exhibition samples
+      stage4: Searching and training personnel
+      stage5: Installing the CRM system and other programs
+      stage6: Launching an advertising campaign before the opening
+      stage7: The start of the salon
+      stage8: Seven steps
+      stage9: to starting a sustainable business
+    join:
+      title1: Join “Perfect WAD Group”
+      title2: " today!"
+      subtitle: Fill out the form or contact us to discuss franchise terms in detail
+      name: First name Last name
+      number: Phone number
+      code: Phone code
+      email: E-mail
+      country: Country
+      city: City
+      send: SEND
+    fin-model:
+      text1: Investments
+      text2: €10100
+      text3: Access to self-sufficiency
+      text4: from 1–2 months
+      text5: Return on investment
+      text6: from 6 months
+      text7: Royalty
+      text8: 1% of revenue
+      text9: Net profit
+      text10: from €3500
+    nav:
+      text1: About us
+      text2: Our advantages
+      text3: Format
+      text4: Support from the company
+      text5: Stages of discovery
+      text6: Contacts
+    opening:
+      title1: Opening of the
+      title2: ' “Perfect” salon'
+      subtitle: Opening of the first official “Perfect” salon in Spain!
+      text_html: This is not just a new chapter in the history of our brand, but also a significant step in supporting Ukrainian business on an international level. We are grateful to everyone who believes in us and helps bring our ideas to life. <br> A special thanks to our franchisees who have made maximum efforts. <br> Congratulations on the opening of the salon, and we wish you prosperity and profit! <br> Together we are stronger and capable of great achievements!
+  popup:
+    subtitle1: get a consultation
+    subtitle2: leave a request
+    title1: LEAVE A REQUEST FOR CONSULTATION
+    title2: calculation from the manufacturer in 24 hours!
+    placeholder: Enter your name
+  sliding:
+    title: pvc Sliding-systems
+    text1: Thickness of outside wall
+    text2: Thermal conductivity
+    text3: 3-chamber system
+    text4: Double-glazed units
+    text5: Galvanized-shaped reinforcement
+    text6: Groove sealer
+    text7: Dust protection
+    text8: Fittings
+    text9: Base for lamination
+    text10: White
+    text11: Caramel
+    text12: Brown
+    text13: Fittings
+    text14: Maximum sash weight
+    text15: Type
+    text16: Width min
+    text17: Width max
+    text18: Height min
+    text19: Height max
+    text20: Profile system
+    text21: Anthracite
+    text22: Width max leaf’s
+    text23: Weight double-glazed unit (Leaf’s)
+    text24: Maximum area
+    text25: Maximum width for whites
+    text26: Maximum width for coloreds
+    text27: Maximum height for whites
+    text28: Maximum height for coloreds
+    text29: Height minimum by frame
+    text30: Minimum width by frame Scheme A
+    text31: Minimum width by frame Scheme K
+    text32: Minimum width by frame Scheme C
+    opening: opening options
+    tild: Tilt and
+    lift: Lift and
+    slide: slide system
+  doors:
+    alum:
+      subtitle1: Without glass Aluminium DOORS
+      info1: Full aluminum doors are solid and aesthetic structures that consist of a frame and aluminum filling, without glass or glazing. These doors are characterized by solidity and excellent durability. Solid aluminum doors are a popular choice in a variety of building types, including commercial, industrial and residential construction. Their solidity, durability and ability to adapt to various requirements make them a valued solution on the door market.
+      subtitle2: GLASSED aluminium DOORS
+      info2: Glazed aluminum doors are light, which makes them easy to install and use. At the same time, aluminum profiles are exceptionally durable, which guarantees long-term operation. Aluminum doors are also resistant to corrosion, which makes them suitable for use in various weather conditions, including at the seaside. Glazed panels allow abundant natural light into the rooms, making them more welcoming and cozy.
+    pvc:
+      subtitle1: Without glass PVC DOORS
+      info1: Solid PVC doors are available in various designs, shapes and colors, which allows you to adapt them to the interior design and individual preferences. It is a practical, durable and versatile solution that combines many advantages, such as thermal and sound insulation, ease of cleaning and the availability of various design options. It is an ideal choice for many types of rooms, both at home and in business.
+      subtitle2: GLASSED PVC DOORS
+      info2: Glazed PVC doors are a stylish and functional solution that combines aesthetics with thermal and sound insulation in rooms. Made of durable plastic, these doors offer an elegant look that suits many types of interiors, both modern and traditional. Glazed panels allow abundant natural light into the rooms, making them more welcoming and cozy.
+  blinds:
+    title: Blinds
+    plastic: PLASTIC
+    information: Information
+    text1: The OPOTERM system is designed for installation in new buildings and in the reconstruction of existing buildings. The design of the OPOTERM system allows for fully open, partially closed or fully closed installation of the roller shutter. In order to ensure maximum thermal insulation, additional insulation is installed in the OPOTERM system box along the entire length of the box and side covers. One of the options of the options is the use of a mosquito net embedded in the blind box (MOSKITO system). MOSKITO SYSTEM). The integrated system ensures independent operation of the roller shutter and the MOSKITO mosquito net. The components used for the production of Aluprof roller shutters are certified for compliance with the relevant technical tolerances and are available to customers.
+    text2: Dimensions of the plastic box
+    text3: "height: 170 mm, 210 mm, 240 mm, width: 230 mm, 255 mm 230 mm, 255 mm"
+    item1: Partially hidden box
+    item2: Сompletely hidden box
+    item3: Open box
+    item4: Box with built-in moskito system
+    aluminium: alluminium
+    text4: The system is designed for use in existing buildings. The fabric is rolled up in an aluminum box that is installed on the wall or in a window niche. Aluminum profiles are made of high-quality aluminum sheet coated with PUR-PA lacquer and are highly resistant to abrasion and weather conditions. Filling foam provides the profiles with good thermal and sound insulation parameters. Reliable design and construction of the roller shutters, as well as a good selection of materials, provide effective protection against unwanted guests.
+    text5: Dimensions of the plastic box
+    text6: "in height and width : 150 mm, 165 mm, 180 mm, 205 mm"
+    text7: The roller shutter can be operated manually or electrically with a motor.
+    item5: Surface installation
+    item6: Installation in the opening
+    available: Available
+    colors: colors
+    span: A wide range of standard colors
+    text8: " will satisfy the most demanding customers. Colored layers are applied using powder coating technology"
+    color1: White
+    color2: Silver
+    color3: Anthracite
+    color4: Golden oak
+    color5: Brown
+    types: Types of
+    control: control
+    type1: Spring-inertial mechanism
+    type2: Mechanical control
+    type3: Roller shutters with a plastic box roller shutters with an aluminum frame. Cassette with tape or cord drive
+    type4: Tape with cassette
+    type5: Mechanical control
+    type6: This mechanism allows users to manually control roller shutters using a tape stored in a cassette system, providing a compact and user-friendly solution.
+    type7: Switch key
+    type8: Automatic control
+    type9: roller shutters with a plastic box / roller shutters with an aluminum box
+    type10: Remote control
+    type11: Automatic control
+    type12: roller shutters with a plastic box / roller shutters with an aluminum box
+  show:
+    card1: Line
+    card2: Trend line
+    card3: Material
+    card4: PVC
+    card5: Producer
+    card6: Dindecor
+    types-of: Types of
+    fillings: door fillings
+    type1: Double-sided overlay filling
+    type2: One-sided overlay filling
+    type3: Batch fill
+    transom: transom
+    type4: Door without transom
+    type5: Door with glass transom
+    type6: Door with full transom
+    door: Door
+    types: types
+    type7: "Single-leaf: The right one opens outwards"
+    type8: "Single-leaf left door opening outwards"
+    type9: "Single-leaf: The right one opens inwards"
+    type10: "Single-leaf: Left opening inwards"
+    type11: "Double-leaf: The right one opens outwards"
+    type12: "Double-leaf: The left one opens outwards"
+    type13: "Double-leaf: The right one opens inwards"
+    type14: "Double-leaf: Left opening inwards"
+    opening: opening
+    method: method
+    type15: Handle/handle
+    type16: Handle/pull handle
+    type17: Pull handle/pull handle
+    type18: Handle/door knob
+  flash:
+    partner:
+      create:
+        success: "Partner was successfully created!"
+        error: "Couldn't create a partner with this parameters!"
+      update:
+        success: "Partner was successfully updated!"
+        error: "Could not update partner with this parameters!"
+      destroy: "Partner destroyed!"
+

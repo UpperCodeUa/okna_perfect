@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta[name='viewport' content='width=device-width,initial-scale=1']
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'css/admin.min', 'data-turbo-track': 'reload'
+    = javascript_include_tag 'js/admin', 'data-turbo-track': 'reload', defer: true
+    = favicon_link_tag 'favicon.png'
+  body
+    #flash
+      = render 'layouts/flash'
+    = render 'admin/layouts/navbar'
+    = yield
+    = turbo_frame_tag 'modal', loading: :lazy

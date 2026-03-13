@@ -1,0 +1,8 @@
+---
+:verbose: true
+:concurrency: 8
+
+:queues:
+  - critical
+  - default
+  - low

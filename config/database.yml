@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: okna_perfect_development
+
+test:
+  <<: *default
+  database: okna_perfect_test
+
+production:
+  <<: *default
+  database: okna_perfect_production
+  username: okna_perfect
+  password: okna_perfect2025upper

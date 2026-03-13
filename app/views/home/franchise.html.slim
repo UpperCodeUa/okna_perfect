@@ -1,0 +1,358 @@
+main.page-franchise
+  section.intro
+    .container
+      .intro-wrapper
+        .intro-content
+          h1.main-title =t('page-franchise.intro.title')
+          p.main-text =t('page-franchise.intro.subtitle')
+          a.btn.main-text-small href="#advantages" =t('page-franchise.intro.btn')
+        .intro-image.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/intro-image.png"}
+    .achievements
+      .container
+        .achievements-wrapper
+          .achievement
+            p.subtitle 18+
+            .stroke
+            p.main-text =t('page-franchise.intro.text1')
+          .achievement
+            p.subtitle 30+
+            .stroke
+            p.main-text =t('page-franchise.intro.text2')
+          .achievement
+            p.subtitle 1mln+
+            .stroke
+            p.main-text =t('page-franchise.intro.text3')
+  section.opening
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.opening.title1')
+          span.red
+            = t('page-franchise.opening.title2')
+      .inner-wrapper
+        .video-content
+          iframe[src="https://www.youtube.com/embed/twHAa34KcqQ?si=wDEfG6Mki2WXvsHj" title="YouTube video player" frameborder="0" allowfullscreen="true" autoplay="1" class="video"]
+        .text-content
+          p.main-text = t('page-franchise.opening.subtitle')
+          p.main-text-small = t('page-franchise.opening.text_html')
+  #leadership
+  section.leadership
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.leadership.title1')
+          span.red
+            = t('page-franchise.leadership.title2')
+      .inner-wrapper
+        .text-content
+          p.main-text = t('page-franchise.leadership.text1')
+          ul.franchise-list
+            li.main-text-small = t('page-franchise.leadership.text2')
+            li.main-text-small = t('page-franchise.leadership.text3')
+            li.main-text-small = t('page-franchise.leadership.text4')
+          p.main-text-small = t('page-franchise.leadership.text5')
+        .image.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/leadership.jpg"}
+  #advantages
+  section.advantages
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.advantages.title1')
+          span.red
+            = t('page-franchise.advantages.title2')
+      .inner-wrapper
+        .image.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/advantages.png"}
+        .text-content
+          .advantage.main-text-small = t('page-franchise.advantages.text1')
+          .advantage.main-text-small = t('page-franchise.advantages.text2')
+          .advantage.main-text-small = t('page-franchise.advantages.text3')
+          .advantage.main-text-small = t('page-franchise.advantages.text4')
+          .advantage.main-text-small = t('page-franchise.advantages.text5')
+          .advantage.main-text-small = t('page-franchise.advantages.text6')
+          .advantage.main-text-small = t('page-franchise.advantages.text7')
+  section.importantly
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.importantly.title1')
+          span.red
+            = t('page-franchise.importantly.title2')
+      p.main-text = t('page-franchise.importantly.text1')
+      .image.loading.load
+        = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/map-franchise.png"}
+      p.main-text = t('page-franchise.importantly.text2')
+  section.partners
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.partners.title1')
+          span.red
+            = t('page-franchise.partners.title2')
+      .countries
+        .country
+          p.main-text.red 01
+          p.main-text = t('page-franchise.partners.country1')
+        .country
+          p.main-text.red 02
+          p.main-text = t('page-franchise.partners.country2')
+        .country
+          p.main-text.red 03
+          p.main-text = t('page-franchise.partners.country3')
+        .country
+          p.main-text.red 04
+          p.main-text = t('page-franchise.partners.country4')
+        .country
+          p.main-text.red 05
+          p.main-text = t('page-franchise.partners.country5')
+        .country
+          p.main-text.red 06
+          p.main-text = t('page-franchise.partners.country6')
+        .country
+          p.main-text.red 07
+          p.main-text = t('page-franchise.partners.country7')
+        .country
+          p.main-text.red 08
+          p.main-text = t('page-franchise.partners.country8')
+        .country
+          p.main-text.red 09
+          p.main-text = t('page-franchise.partners.country9')
+        .country
+          p.main-text.red 10
+          p.main-text = t('page-franchise.partners.country10')
+        .country
+          p.main-text.red 11
+          p.main-text = t('page-franchise.partners.country11')
+        .country
+          p.main-text.red 12
+          p.main-text = t('page-franchise.partners.country12')
+        .country
+          p.main-text.red 13
+          p.main-text = t('page-franchise.partners.country13')
+        .country
+          p.main-text.red 14
+          p.main-text = t('page-franchise.partners.country14')
+        .country
+          p.main-text.red 15
+          p.main-text = t('page-franchise.partners.country15')
+      .image.loading.load
+        = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/map-world.svg"}
+      .btn.main-text-small#open-franchise-application = t('page-franchise.partners.submit')
+  section.section-video
+    .container
+      a.video-wrapper href=image_path("partner/video1.mp4") data-fslightbox="video1"
+        = video_tag 'partner/video1.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto", class: 'video', poster: '/assets/main-slider/image-1.jpeg'
+  #salon
+  section.salon
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.salon.title1')
+          span.red
+            = t('page-franchise.salon.title2')
+      .inner-wrapper
+        .text-content
+          .row
+            p.main-text-small = t('page-franchise.salon.text1')
+            p.main-text-small = t('page-franchise.salon.text2')
+          .row
+            p.main-text-small = t('page-franchise.salon.text3')
+            p.main-text-small = t('page-franchise.salon.text4')
+          .row
+            p.main-text-small = t('page-franchise.salon.text5')
+            p.main-text-small = t('page-franchise.salon.text6')
+          .row
+            p.main-text-small = t('page-franchise.salon.text7')
+            p.main-text-small = t('page-franchise.salon.text8')
+          .row
+            p.main-text-small = t('page-franchise.salon.text9')
+            p.main-text-small = t('page-franchise.salon.text10')
+        .image.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/salon.png"}
+      .btn.main-text-small#open-fin-model  = t('page-franchise.salon.btn')
+  #support
+  section.support
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.support.title1')
+          span.red
+            = t('page-franchise.support.title2')
+      .inner-wrapper
+        .image.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/support.jpg"}
+        .text-content
+          ul.franchise-list
+            li.main-text-small = t('page-franchise.support.text1')
+            li.main-text-small = t('page-franchise.support.text2')
+            li.main-text-small = t('page-franchise.support.text3')
+            li.main-text-small = t('page-franchise.support.text4')
+            li.main-text-small = t('page-franchise.support.text5')
+            li.main-text-small = t('page-franchise.support.text6')
+            li.main-text-small = t('page-franchise.support.text7')
+            li.main-text-small = t('page-franchise.support.text8')
+            li.main-text-small = t('page-franchise.support.text9')
+            li.main-text-small = t('page-franchise.support.text10')
+            li.main-text-small = t('page-franchise.support.text11')
+            li.main-text-small = t('page-franchise.support.text12')
+            li.main-text-small = t('page-franchise.support.text13')
+            li.main-text-small = t('page-franchise.support.text14')
+            li.main-text-small = t('page-franchise.support.text15')
+            li.main-text-small = t('page-franchise.support.text16')
+  section.slider
+    .list
+      .item
+        p.main-text-small = t('page-franchise.slider.text')
+      .item
+        p.main-text-small = t('page-franchise.slider.text')
+      .item
+        p.main-text-small = t('page-franchise.slider.text')
+      .item
+        p.main-text-small = t('page-franchise.slider.text')
+      .item
+        p.main-text-small = t('page-franchise.slider.text')
+  section.tasks
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.tasks.title1')
+          span.red
+            = t('page-franchise.tasks.title2')
+      p.main-text = t('page-franchise.tasks.subtitle')
+      .tasks-wrapper
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon8.svg"}
+          p.main-text-small = t('page-franchise.tasks.text1')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon9.svg"}
+          p.main-text-small = t('page-franchise.tasks.text2')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon10.svg"}
+          p.main-text-small = t('page-franchise.tasks.text3')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon11.svg"}
+          p.main-text-small = t('page-franchise.tasks.text4')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon12.png"}
+          p.main-text-small = t('page-franchise.tasks.text5')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon13.png"}
+          p.main-text-small = t('page-franchise.tasks.text6')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon14.svg"}
+          p.main-text-small = t('page-franchise.tasks.text7')
+        .task.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/icons/icon15.svg"}
+          p.main-text-small = t('page-franchise.tasks.text8')
+      .image.loading.load
+        = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/tasks.jpg"}
+  #stages
+  section.stages
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.stages.title1')
+          span.red
+            = t('page-franchise.stages.title2')
+      .stages-wrapper
+        .stage
+          p.number 01
+          p.main-text-small = t('page-franchise.stages.stage1')
+        .stage
+          p.number 02
+          p.main-text-small = t('page-franchise.stages.stage2')
+        .stage
+          p.number 03
+          p.main-text-small = t('page-franchise.stages.stage3')
+        .stage
+          p.number 04
+          p.main-text-small = t('page-franchise.stages.stage4')
+        .stage
+          p.number 05
+          p.main-text-small = t('page-franchise.stages.stage5')
+        .stage
+          p.number 06
+          p.main-text-small = t('page-franchise.stages.stage6')
+        .stage
+          p.number 07
+          p.main-text-small = t('page-franchise.stages.stage7')
+        .stage-box
+          p.number = t('page-franchise.stages.stage8')
+          p.main-text-small = t('page-franchise.stages.stage9')
+  #join
+  section.join
+    .container
+      .section-title
+        h2.subtitle
+          = t('page-franchise.join.title1')
+          span.red
+            = t('page-franchise.join.title2')
+      .inner-wrapper
+        .text-content
+          = form_with url: send_form_index_path, method: :post, html: { class: 'form-franchise form' }, local: true do |f|
+            = f.hidden_field :form_type, value: "franchise"
+            p.main-text = t('page-franchise.join.subtitle')
+            = f.text_field :username, required: true, autocomplete: "off", placeholder: t('page-franchise.join.name'), class: "input"
+            = f.text_field :phone_code, required: true ,autocomplete: "off", placeholder: t('page-franchise.join.code'), class: "input"
+            = f.telephone_field :phone, required: true, autocomplete: "off", placeholder: t('page-franchise.join.number'), minlength: "7", class: "input", id: "phone"
+            = f.email_field :email, required: true, autocomplete: "off", placeholder: t('page-franchise.join.email'), class: "input"
+            = f.text_field :country, required: true, autocomplete: "off", placeholder: t('page-franchise.join.country'), class: "input"
+            = f.text_field :city, required: true, autocomplete: "off", placeholder: t('page-franchise.join.city'), class: "input"
+
+            .hcaptcha class="h-captcha" data-sitekey="9bd2d4c8-d97c-4682-b3f4-e5c4f79859aa" data-id="captcha3"
+            = f.hidden_field :hcaptcha_response, id: 'hcaptcha-response-3'
+            = f.submit t('page-franchise.join.send'), class: "btn", data: { action: 'submit' }
+        .image.loading.load
+          = image_tag '', alt: 'image', title: 'Perfect', data: {src: "/assets/franchise/join.jpg"}
+
+
+  .popup-overlay#franchise-application
+    .popup
+      = form_with url: send_form_index_path, method: :post, html: { class: 'form-franchise form' }, local: true do |f|
+        = f.hidden_field :form_type, value: "franchise"
+        p.main-text = t('page-franchise.join.subtitle')
+        = f.text_field :username, required: true, autocomplete: "off", placeholder: t('page-franchise.join.name'), class: "input"
+        = f.text_field :phone_code, required: true ,autocomplete: "off", placeholder: t('page-franchise.join.code'), class: "input"
+        = f.telephone_field :phone, required: true, autocomplete: "off", placeholder: t('page-franchise.join.number'), minlength: "7", class: "input", id: "phone"
+        = f.email_field :email, required: true, autocomplete: "off", placeholder: t('page-franchise.join.email'), class: "input"
+        = f.text_field :country, required: true, autocomplete: "off", placeholder: t('page-franchise.join.country'), class: "input"
+        = f.text_field :city, required: true, autocomplete: "off", placeholder: t('page-franchise.join.city'), class: "input"
+
+        .hcaptcha class="h-captcha" data-sitekey="9bd2d4c8-d97c-4682-b3f4-e5c4f79859aa" data-id="captcha4"
+        = f.hidden_field :hcaptcha_response, id: 'hcaptcha-response-4'
+        = f.submit t('page-franchise.join.send'), class: "btn", data: { action: 'submit' }
+      .close#close-franchise-application
+
+
+  .popup-overlay#fin-model
+    .popup
+      .fin-model-box
+        .row
+          p.main-text-small = t('page-franchise.fin-model.text1')
+          p.main-text-small = t('page-franchise.fin-model.text2')
+        .row
+          p.main-text-small = t('page-franchise.fin-model.text3')
+          p.main-text-small = t('page-franchise.fin-model.text4')
+        .row
+          p.main-text-small = t('page-franchise.fin-model.text5')
+          p.main-text-small = t('page-franchise.fin-model.text6')
+        .row
+          p.main-text-small = t('page-franchise.fin-model.text7')
+          p.main-text-small = t('page-franchise.fin-model.text8')
+        .row
+          p.main-text-small = t('page-franchise.fin-model.text9')
+          p.main-text-small = t('page-franchise.fin-model.text10')
+      .close#close-fin-model
+  .nav-btn#open-nav
+  .navigation#nav
+    .logo
+      = image_tag("header/logo.svg", alt: 'logo', title: 'Perfect')
+    .nav-wrapper
+      a.main-text-small.nav-link href="#leadership" = t('page-franchise.nav.text1')
+      a.main-text-small.nav-link href="#advantages" = t('page-franchise.nav.text2')
+      a.main-text-small.nav-link href="#salon" = t('page-franchise.nav.text3')
+      a.main-text-small.nav-link href="#support" = t('page-franchise.nav.text4')
+      a.main-text-small.nav-link href="#stages" = t('page-franchise.nav.text5')
+      a.main-text-small.nav-link href="#join" = t('page-franchise.nav.text6')

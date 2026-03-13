@@ -1,0 +1,4 @@
+- flash.each do |key, msg|
+  .notice__wrapper data-controller="removals"
+    = content_tag :div, msg.html_safe, class: key, data: { removals_target: "alert" }
+    button.notice__btn data-action="click->removals#remove"

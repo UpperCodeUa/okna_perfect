@@ -1,0 +1,13 @@
+= turbo_frame_tag 'modal' do
+  .modal
+    h2 = 'New Partner'
+    = link_to '×', '#', data: { controller: 'modals', action: 'click->modals#close' }
+
+    = simple_form_for [:admin, @partner], url: admin_partners_path do |f|
+      = f.input :first_name, required: true, label: 'First name'
+      = f.input :last_name, required: true, label: 'Last name'
+      = f.input :email, required: true, label: 'Email'
+      = f.select :partner_role, User.partner_roles.keys.map { |role| [role.humanize, role] }, label: 'Role'
+      br
+      = f.button :submit, 'Create'
+  .modal-bg data-controller='modals' data-action='click->modals#close'

@@ -1,0 +1,8 @@
+- partner_presenter = UserPresenter.new(partner, self)
+
+= turbo_frame_tag partner do
+  tr
+    td = partner_presenter.full_name
+    td = partner_presenter.registration_date
+    td = link_to 'Edit', edit_admin_partner_path(partner), data: { turbo: true, turbo_frame: '_top' }
+    td = link_to 'Destroy', admin_partner_path(partner), method: :delete, data: { turbo: true, turbo_method: :delete, turbo_confirm: 'Are you sure?' }

@@ -1,0 +1,118 @@
+doctype html
+html data-theme="#{session[:theme]}" lang="#{locale}"
+  head
+    meta[name="viewport" content="width=device-width,initial-scale=1"]
+    meta[name="facebook-domain-verification" content="c4zfkdcnh0u4yuf3yhlbj6vpocivou"]
+    = display_meta_tags
+    // Meta Pixel Code
+    script
+      | !function(f,b,e,v,n,t,s)
+      | {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      | n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      | if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      | n.queue=[];t=b.createElement(e);t.async=!0;
+      | t.src=v;s=b.getElementsByTagName(e)[0];
+      | s.parentNode.insertBefore(t,s)}(window, document,'script',
+      | 'https://connect.facebook.net/en_US/fbevents.js');
+      | fbq('init', '1631977877541136');
+      | fbq('track', 'PageView');
+    noscript
+      img[height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1631977877541136&ev=PageView&noscript=1"]
+    / Clarity code
+    script[type="text/javascript"]
+      | (function(c,l,a,r,i,t,y)
+      | {c[a]=c[a]function(){(c[a].q=c[a].q[]).push(arguments)};
+      | t=l.createElement(r);t.async=1;
+      | t.src="https://www.clarity.ms/tag/"+i;
+      | y=l.getElementsByTagName(r)[0];
+      | y.parentNode.insertBefore(t,y);})
+      | (window, document, "clarity", "script", "mn7wookwih");
+    javascript:
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtag/js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','G-1Y5RPX6HM7');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1Y5RPX6HM7');
+    javascript:
+      (function(w,d,s,l,i){
+        w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5425K2XF');
+    noscript
+      iframe[src="https://www.googletagmanager.com/ns.html?id=GTM-5425K2XF" height="0" width="0" style="display:none;visibility:hidden"]
+    script[type="text/javascript"]
+      | (function(d, w, s) {
+      | var widgetHash = 'via5r7pvii9ugfwd15ve', gcw = d.createElement(s);
+      | gcw.type = 'text/javascript';
+      | gcw.async = true;
+      | gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+      | var sn = d.getElementsByTagName(s)[0];
+      | sn.parentNode.insertBefore(gcw, sn);
+      | })(document, window, 'script');
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag "js/application", "data-turbo-track": "reload"
+    = stylesheet_link_tag "css/application.min", "data-turbo-track": "reload"
+    = javascript_include_tag "js/application", "data-turbo-track": "reload", defer: true
+    = favicon_link_tag 'favicon.png'
+    = yield :javascript
+    = yield :head
+  body
+    = javascript_include_tag "https://js.hcaptcha.com/1/api.js?hl=cs", async: true, defer: true
+    = render 'layouts/navbar'
+    #flash
+      = render 'layouts/flash'
+    .sticky-footer
+      = yield
+    = render 'layouts/footer'
+    .consultation-btn.open-consultation =t('main.consultation-btn')
+    .popup-overlay#consultation-popup
+      .popup
+        = form_with url: send_form_index_path, method: :post, html: { class: 'popup-form form-consultation form', id: 'form2' }, local: true do |f|
+          p.popup-subtitle =t('popup.subtitle1')
+          p.popup-title =t('popup.title1')
+          .inner.call-to-action
+            = f.text_field :username, required: true, autocomplete: "off", placeholder: t('popup.placeholder'), class: "name-input"
+            = f.text_field :phone_code, required: true, autocomplete: "off", placeholder: t('page-franchise.join.code'), class: "phone-input"
+            = f.telephone_field :phone, required: true, autocomplete: "off", placeholder: "234-567-890", minlength: "7", class: "phone-input"
+            = f.email_field :email, required: true, autocomplete: "off", placeholder: t('page-franchise.join.email'), class: "name-input"
+            = f.text_field :country, required: true, autocomplete: "off", placeholder: "Zadejte svou zemi", class: "country-input"
+            / = f.text_field :captcha_input, autocomplete: "off", class: "hidden-captcha", style: "display:none;"
+          .hcaptcha class="h-captcha" data-sitekey="9bd2d4c8-d97c-4682-b3f4-e5c4f79859aa" data-id="captcha2"
+          = f.hidden_field :hcaptcha_response, id: 'hcaptcha-response-2'
+          button.button (type="submit" data-action='submit') =t('page-franchise.join.send')
+        .close#close-consultation-popup
+    .popup-overlay#request-popup
+      .popup
+        form.popup-form.form-request
+          p.popup-subtitle =t('popup.subtitle2')
+          p.popup-title =t('popup.title2')
+          .inner.call-to-action
+            input.name-input (type="text" name="username" required autocomplete="off" placeholder=t('popup.placeholder'))
+            input.phone-input (type="tel" name="phone" required autocomplete="off" placeholder="+1-234-567-890" minlength="10")
+            input.country-input (type="text" name="country" required autocomplete="off" placeholder="Zadejte svou zemi")
+          button.button (type="submit" data-action='submit') =t('page-franchise.join.send')
+        .close#close-request-popup
+    .darken
+    script[type="text/javascript"]
+      | (function(d, w, s) {
+      | var widgetHash = 'ol43g46fmmizle9rkuv3', ctw = d.createElement(s);
+      | ctw.type = 'text/javascript';
+      | ctw.async = true;
+      | ctw.src = '//widgets.binotel.com/calltracking/widgets/'+ widgetHash +'.js';
+      | var sn = d.getElementsByTagName(s)[0];
+      | sn.parentNode.insertBefore(ctw, sn);
+      | })(document, window, 'script');

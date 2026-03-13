@@ -1,0 +1,107 @@
+main.page-person
+  .container
+    section.top.category
+      .box
+        .inner-wrapper
+          .swiper.partner-slider
+            .swiper-wrapper
+              .swiper-slide
+                = video_tag 'partner/video1.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto", class: 'video-swiper', poster: '/assets/main-slider/image-1.jpeg'
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/partner/main-image.jpeg"}
+            .button-box
+              .swiper-pagination
+              .swiper-button-prev
+              .swiper-button-next
+          .main-item
+            .subtitle =t('navbar.partner')
+    section.benefits
+      .box
+        .benefits-items
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image5.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title5')
+              .item-info-text = t('page-partner.text5')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image6.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title6')
+              .item-info-text = t('page-partner.text6')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image1.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title2')
+              .item-info-text = t('page-partner.text2')
+        .inner
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image4.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title4')
+              .item-info-text = t('page-partner.text3')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image5.jpeg"}
+            .item-info
+              .item-info-title = t('page-architect.title6')
+              .item-info-text = t('main.benefits-items.text5')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image6.jpeg"}
+            .item-info
+              .item-info-title = t('main.benefits-items.title6')
+              .item-info-text = t('main.benefits-items.text6')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image7.jpeg"}
+            .item-info
+              .item-info-title = t('main.benefits-items.title7')
+              .item-info-text = t('main.benefits-items.text7')
+        .benefits-items.adaptive
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image5.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title5')
+              .item-info-text = t('page-partner.text5')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image6.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title6')
+              .item-info-text = t('page-partner.text6')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image1.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title2')
+              .item-info-text = t('page-partner.text2')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image4.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title4')
+              .item-info-text = t('page-partner.text3')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image5.jpeg"}
+            .item-info
+              .item-info-title = t('page-architect.title6')
+              .item-info-text = t('main.benefits-items.text5')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image6.jpeg"}
+            .item-info
+              .item-info-title = t('main.benefits-items.title6')
+              .item-info-text = t('main.benefits-items.text6')
+        .inner.adaptive-inner
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image7.jpeg"}
+            .item-info
+              .item-info-title = t('main.benefits-items.title7')
+              .item-info-text = t('main.benefits-items.text7')

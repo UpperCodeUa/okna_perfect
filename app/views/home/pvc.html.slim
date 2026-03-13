@@ -1,0 +1,861 @@
+main
+  section.top.category
+    .container
+      .box
+        .inner-wrapper
+          .swiper.hybrid
+            .swiper-wrapper
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/pvc/slider/img3.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/pvc/slider/img1.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/pvc/slider/img2.jpg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/pvc/slider/img4.jpg"}
+            .button-box
+              .swiper-pagination
+              .swiper-button-prev
+              .swiper-button-next
+          .main-item
+            .subtitle =t('navbar.pvc')
+  section.service.category
+    .container
+      h2.h2
+        =t('page-hybrid.title1')
+        span.red
+          =t('page-pvc.title2')
+      / .box
+        / .video-wrapper
+            = video_tag 'pvc/video1.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto", class: 'video'
+            a.scale href=image_path("pvc/video1.mp4") data-fslightbox="video1"
+      .box.products
+        .products-wrapper
+          .left
+            .p8-passive
+              .photo-container.light-corners
+                = image_tag "pvc/3d/p8-passive/1.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/2.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/3.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/4.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/5.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/6.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/7.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/8.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/9.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/10.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/11.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/12.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/13.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/14.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/15.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/16.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/17.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/18.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/19.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/20.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/21.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/22.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/23.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/24.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/25.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/26.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/27.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/28.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/29.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/30.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/31.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/32.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/33.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/34.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/35.jpg", class: "photo", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8-passive/36.jpg", class: "photo", alt: 'image', title: 'Perfect'
+              .photo-container.black-corners
+                = image_tag "pvc/3d/black/p8-passive/1.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/2.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/3.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/4.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/5.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/6.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/7.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/8.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/9.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/10.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/11.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/12.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/13.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/14.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/15.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/16.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/17.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/18.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/19.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/20.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/21.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/22.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/23.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/24.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/25.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/26.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/27.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/28.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/29.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/30.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/31.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/32.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/33.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/34.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/35.jpg", class: "photob", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8-passive/36.jpg", class: "photob", alt: 'image', title: 'Perfect'
+              input.range__button type="range" id="slider" min="1" max="36" step="1" value="1"
+              input.range__button type="range" id="sliderb" min="1" max="36" step="1" value="1"
+              .right
+                .top-card
+                  h2.h2.transform Perfect <span class="red"> Passive</span>
+                  .subtitle =t('page-hybrid.technical.title')
+                  .card-content
+                    .line
+                      p.weight P
+                      p = t('page-pvc.specifics.text1')
+                    .line
+                      p.weight 8
+                      p = t('page-pvc.specifics.text2')
+                    .line
+                      p.weight A
+                      p = t('page-pvc.specifics.text3')
+                    .line
+                      p.weight Passive Insulation
+                      p = t('page-pvc.specifics.text4')
+                    .line
+                      p.weight Security
+                      p = t('page-hybrid.specifics.text7')
+                    .line
+                      p.weight Comfort Life
+                      p = t('page-hybrid.specifics.text8')
+                    .line
+                      p.weight EU
+                      p = t('page-hybrid.specifics.text9')
+            .p8
+              .photo-container.light-corners
+                = image_tag "pvc/3d/p8/1.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/2.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/3.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/4.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/5.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/6.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/7.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/8.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/9.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/10.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/11.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/12.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/13.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/14.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/15.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/16.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/17.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/18.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/19.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/20.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/21.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/22.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/23.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/24.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/25.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/26.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/27.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/28.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/29.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/30.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/31.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/32.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/33.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/34.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/35.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p8/36.jpg", class: "photo2", alt: 'image', title: 'Perfect'
+              .photo-container.black-corners
+                = image_tag "pvc/3d/black/p8/1.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/2.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/3.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/4.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/5.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/6.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/7.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/8.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/9.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/10.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/11.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/12.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/13.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/14.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/15.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/16.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/17.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/18.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/19.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/20.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/21.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/22.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/23.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/24.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/25.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/26.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/27.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/28.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/29.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/30.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/31.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/32.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/33.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/34.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/35.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p8/36.jpg", class: "photo2b", alt: 'image', title: 'Perfect'
+              input.range__button type="range" id="slider2" min="1" max="36" step="1" value="1"
+              input.range__button type="range" id="slider2b" min="1" max="36" step="1" value="1"
+              .right
+                .top-card
+                  h2.h2.transform Perfect <span class="red">Balance</span>
+                  .subtitle =t('page-hybrid.technical.title')
+                  .card-content
+                    .line
+                      p.weight P
+                      p = t('page-pvc.specifics.text11')
+                    .line
+                      p.weight 8
+                      p = t('page-pvc.specifics.text2')
+                    .line
+                      p.weight A
+                      p = t('page-pvc.specifics.text3')
+                    .line
+                      p.weight Passive Insulation
+                      p = t('page-pvc.specifics.text12')
+                    .line
+                      p.weight Security
+                      p = t('page-hybrid.specifics.text7')
+                    .line
+                      p.weight Comfort Life
+                      p = t('page-hybrid.specifics.text8')
+                    .line
+                      p.weight EU
+                      p = t('page-hybrid.specifics.text9')
+            .p7
+              .photo-container.light-corners
+                = image_tag "pvc/3d/p7/1.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/2.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/3.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/4.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/5.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/6.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/7.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/8.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/9.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/10.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/11.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/12.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/13.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/14.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/15.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/16.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/17.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/18.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/19.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/20.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/21.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/22.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/23.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/24.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/25.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/26.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/27.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/28.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/29.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/30.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/31.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/32.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/33.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/34.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/35.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7/36.jpg", class: "photo3", alt: 'image', title: 'Perfect'
+              .photo-container.black-corners
+                = image_tag "pvc/3d/black/p7/1.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/2.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/3.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/4.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/5.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/6.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/7.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/8.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/9.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/10.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/11.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/12.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/13.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/14.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/15.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/16.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/17.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/18.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/19.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/20.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/21.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/22.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/23.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/24.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/25.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/26.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/27.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/28.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/29.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/30.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/31.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/32.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/33.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/34.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/35.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7/36.jpg", class: "photo3b", alt: 'image', title: 'Perfect'
+              input.range__button type="range" id="slider3" min="1" max="36" step="1" value="1"
+              input.range__button type="range" id="slider3b" min="1" max="36" step="1" value="1"
+              .right
+                .top-card
+                  h2.h2.transform Perfect <span class="red">Elegance</span>
+                  .subtitle =t('page-hybrid.technical.title')
+                  .card-content
+                    .line
+                      p.weight P
+                      p = t('page-pvc.specifics.text5')
+                    .line
+                      p.weight 7
+                      p = t('page-pvc.specifics.text6')
+                    .line
+                      p.weight A
+                      p = t('page-pvc.specifics.text3')
+                    .line
+                      p.weight HI
+                      p = t('page-pvc.specifics.text7')
+                    .line
+                      p.weight Security
+                      p = t('page-hybrid.specifics.text7')
+                    .line
+                      p.weight Comfort Life
+                      p = t('page-hybrid.specifics.text8')
+                    .line
+                      p.weight EU
+                      p = t('page-hybrid.specifics.text9')
+            .p7-energy
+              .photo-container.light-corners
+                = image_tag "pvc/3d/p7-energy/1.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/2.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/3.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/4.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/5.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/6.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/7.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/8.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/9.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/10.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/11.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/12.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/13.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/14.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/15.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/16.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/17.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/18.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/19.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/20.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/21.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/22.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/23.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/24.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/25.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/26.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/27.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/28.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/29.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/30.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/31.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/32.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/33.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/34.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/35.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p7-energy/36.jpg", class: "photo4", alt: 'image', title: 'Perfect'
+              .photo-container.black-corners
+                = image_tag "pvc/3d/black/p7-energy/1.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/2.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/3.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/4.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/5.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/6.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/7.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/8.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/9.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/10.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/11.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/12.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/13.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/14.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/15.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/16.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/17.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/18.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/19.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/20.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/21.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/22.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/23.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/24.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/25.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/26.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/27.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/28.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/29.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/30.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/31.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/32.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/33.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/34.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/35.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p7-energy/36.jpg", class: "photo4b", alt: 'image', title: 'Perfect'
+              input.range__button type="range" id="slider4" min="1" max="36" step="1" value="1"
+              input.range__button type="range" id="slider4b" min="1" max="36" step="1" value="1"
+              .right
+                .top-card
+                  h2.h2.transform Perfect<span class="red"> Energy</span>
+                  .subtitle =t('page-hybrid.technical.title')
+                  .card-content
+                    .line
+                      p.weight P
+                      p = t('page-pvc.specifics.text8')
+                    .line
+                      p.weight 7
+                      p = t('page-pvc.specifics.text6')
+                    .line
+                      p.weight B
+                      p = t('page-pvc.specifics.text9')
+                    .line
+                      p.weight HI
+                      p = t('page-pvc.specifics.text7')
+                    .line
+                      p.weight Security
+                      p = t('page-hybrid.specifics.text7')
+                    .line
+                      p.weight Comfort Life
+                      p = t('page-hybrid.specifics.text8')
+                    .line
+                      p.weight EU
+                      p = t('page-hybrid.specifics.text9')
+            .p6
+              .photo-container.light-corners
+                = image_tag "pvc/3d/p6/1.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/2.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/3.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/4.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/5.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/6.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/7.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/8.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/9.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/10.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/11.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/12.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/13.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/14.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/15.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/16.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/17.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/18.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/19.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/20.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/21.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/22.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/23.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/24.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/25.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/26.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/27.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/28.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/29.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/30.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/31.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/32.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/33.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/34.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/35.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/p6/36.jpg", class: "photo5", alt: 'image', title: 'Perfect'
+              .photo-container.black-corners
+                = image_tag "pvc/3d/black/p6/1.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/2.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/3.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/4.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/5.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/6.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/7.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/8.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/9.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/10.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/11.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/12.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/13.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/14.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/15.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/16.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/17.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/18.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/19.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/20.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/21.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/22.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/23.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/24.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/25.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/26.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/27.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/28.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/29.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/30.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/31.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/32.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/33.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/34.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/35.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+                = image_tag "pvc/3d/black/p6/36.jpg", class: "photo5b", alt: 'image', title: 'Perfect'
+              input.range__button type="range" id="slider5" min="1" max="36" step="1" value="1"
+              input.range__button type="range" id="slider5b" min="1" max="36" step="1" value="1"
+              .right
+                .top-card
+                  h2.h2.transform Perfect <span class="red">Exellent</span>
+                  .subtitle =t('page-hybrid.technical.title')
+                  .card-content
+                    .line
+                      p.weight P
+                      p = t('page-pvc.specifics.text8')
+                    .line
+                      p.weight 7
+                      p = t('page-pvc.specifics.text13')
+                    .line
+                      p.weight B
+                      p = t('page-pvc.specifics.text9')
+                    .line
+                      p.weight HI
+                      p = t('page-pvc.specifics.text14')
+                    .line
+                      p.weight Security
+                      p = t('page-hybrid.specifics.text7')
+                    .line
+                      p.weight EU
+                      p = t('page-hybrid.specifics.text9')
+          .types-wrapper.wide
+            .types-pvc
+              .swiper-wrapper
+                .swiper-slide
+                  .type#type-p8-passive
+                    .subtitle Perfect<span> Passive</span>
+                    .image.light-corners
+                      = image_tag "pvc/p8-passive.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                    .image.black-corners
+                      = image_tag "pvc/3d/black/p8-passive/1.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                .swiper-slide
+                  .type#type-p8
+                    .subtitle Perfect <span>Balance</span>
+                    .image.light-corners
+                      = image_tag "pvc/p8.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                    .image.black-corners
+                      = image_tag "pvc/3d/black/p8/1.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                .swiper-slide
+                  .type#type-p7
+                    .subtitle Perfect <span>Elegance</span>
+                    .image.light-corners
+                      = image_tag "pvc/p7.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                    .image.black-corners
+                      = image_tag "pvc/3d/black/p7/1.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                .swiper-slide
+                  .type#type-p7-energy
+                    .subtitle Perfect<span> Energy</span>
+                    .image.light-corners
+                      = image_tag "pvc/p7-energy.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                    .image.black-corners
+                      = image_tag "pvc/3d/black/p7-energy/1.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                .swiper-slide
+                  .type#type-p6
+                    .subtitle Perfect <span>Exellent</span>
+                    .image.light-corners
+                      = image_tag "pvc/3d/p6/1.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+                    .image.black-corners
+                      = image_tag "pvc/3d/black/p6/1.jpg", alt: 'image', title: 'Perfect'
+                      .text =t('page-hybrid.selected')
+            .button.swiper-button-prev.priv
+            .button.swiper-button-next.priv
+      - if I18n.locale.in?([:ua, :es, :fr, :it])
+        .p7.renovation
+          .box
+            h2.h2
+              =t('renovation.title1')
+              span.red
+                =t('renovation.title2')
+            .renovation-wrapper
+              .cards
+                .card.padding
+                  p.card-title
+                    =t('renovation.title1')
+                    span.red
+                      =t('renovation.title2')
+                  ul.list
+                    li.list-item =t('renovation.text1')
+                    li.list-item =t('renovation.text2')
+                .inner-wrapper
+                  .card
+                    = image_tag 'pvc/renovation/draw1.jpg', alt: 'Slider image', title: 'Perfect', loading: 'lazy'
+                  .card
+                    = image_tag 'pvc/renovation/draw2.jpg', alt: 'Slider image', title: 'Perfect', loading: 'lazy'
+              .slider
+                .renovation-slider
+                  .swiper-wrapper
+                    .swiper-slide
+                      = image_tag 'pvc/renovation/1.jpg', alt: 'Slider image', title: 'Perfect', loading: 'lazy'
+                    .swiper-slide
+                      = image_tag 'pvc/renovation/2.jpg', alt: 'Slider image', title: 'Perfect', loading: 'lazy'
+                    .swiper-slide
+                      = image_tag 'pvc/renovation/3.jpg', alt: 'Slider image', title: 'Perfect', loading: 'lazy'
+                .button.swiper-button-prev.priv
+                .button.swiper-button-next.priv
+
+      .box
+        .item
+          .item-image
+            = image_tag 'pvc/image22.jpeg', alt: 'image', title: 'Perfect'
+          .item-info
+            .item-info-title =t('page-hybrid.item-main-title1')
+          .items-wrapper.four-columns-two-rows
+            .item
+              .item-info-text A class
+              .item-info-title 20
+              .item-info-text = t('main.our-benefits.text5')
+            .item.mobile-hide
+              .item-info-text B+ class
+              .item-info-title 20
+              .item-info-text = t('main.our-benefits.text5')
+            .item
+              .item-info-text B class
+              .item-info-title 15
+              .item-info-text = t('main.our-benefits.text5')
+            .item
+              .item-info-text C class
+              .item-info-title 10
+              .item-info-text = t('main.our-benefits.text5')
+            .item
+              .item-info-text A class
+              .item-info-title 2,8
+              .item-info-text mm
+            .item.mobile-hide
+              .item-info-text B+ class
+              .item-info-title 2,7
+              .item-info-text mm
+            .item
+              .item-info-text B class
+              .item-info-title 2,5
+              .item-info-text mm
+            .item
+              .item-info-text C class
+              .item-info-title < 2,5
+              .item-info-text mm
+        / .show-info
+        /   .show-info-text.durability If your budget is not limited, then, in terms of durability, aluminum is the best solution. If you are looking to invest rationally in long-lasting solutions, the choice of Hybrid Windows is obvious. Plastic windows are not a rational choice in terms of durability.
+      .box
+        .item
+          .item-image
+            = image_tag 'pvc/image44.jpeg', alt: 'image', title: 'Perfect'
+          .item-info
+            .item-info-title =t('page-hybrid.item-main-title2')
+          .items-wrapper
+            .item
+              .item-info-text =t('page-hybrid.item-info.text6')
+              .item-info-title HI +
+              .stars
+                .star
+                .star
+                .star
+                .star
+                .star
+            .item
+              .item-info-text =t('page-hybrid.item-info.text7')
+              .item-info-title SI +
+              .stars
+                .star
+                .star
+                .star
+                .star
+                .star
+            .item
+              .item-info-text =t('page-hybrid.item-info.text8')
+              .item-info-title Comfort life
+        .show-info
+          .show-info-text.comfort =t('page-pvc.info1')
+      .box
+        .item
+          .item-image
+            = image_tag 'pvc/image33.jpeg', alt: 'image', title: 'Perfect'
+          .item-info
+            .item-info-title =t('page-hybrid.item-main-title3')
+          .items-wrapper
+            .item
+              .item-info-text =t('page-hybrid.item-info.text6')
+              .item-info-title passive/HI +
+              .stars
+                .star
+                .star
+                .star
+                .star
+                .star
+            .item
+              .item-info-text =t('page-hybrid.item-info.text10')
+              <div class="item-info-title transform">Uf = 1,1</div>
+              .stars
+                .star
+                .star
+                .star
+                .star
+                .star
+            .item
+              .item-info-text =t('page-hybrid.item-info.text11')
+              <div class="item-info-title transform">Ug = 0,7</div>
+              .item-info-text =t('page-hybrid.item-info.text12')
+        .show-info
+          .show-info-text.efficiency =t('page-pvc.info2')
+
+      .box
+        .item
+          .item-image
+            = image_tag 'pvc/image4.jpeg', alt: 'image', title: 'Perfect'
+          .item-info
+            .item-info-title =t('page-hybrid.item-main-title4')
+          .items-wrapper
+            .item
+              .item-info-text =t('page-hybrid.item-info.text17')
+              .item-info-title wh activ
+              .stars
+                .star
+                .star
+                .star
+                .star
+                .star
+            .item
+              .item-info-text =t('page-hybrid.item-info.text18')
+              .item-info-title secustik
+              .stars
+                .star
+                .star
+                .star
+                .star
+                .star
+        / .show-info
+        /   .show-info-text.safety
+      .box
+        .item
+          .item-image.height
+            = image_tag 'hybrid/image06.jpeg', alt: 'image', title: 'Perfect'
+          .item-info
+            .item-info-title =t('page-hybrid.item-main-title5')
+        .show-info
+          .show-info-text.price =t('page-pvc.info3')
+      .box
+        .item
+          .item-image
+            = image_tag 'hybrid/image7.jpeg', alt: 'image', title: 'Perfect'
+          .item-info
+            .item-info-title =t('page-hybrid.item-main-title6')
+          .items-wrapper
+            .item
+              .item-info-text =t('page-hybrid.item-info.text19')
+              .item-info-title ce
+            .item
+              .item-info-text =t('page-hybrid.item-info.text20')
+              .item-info-title pqm
+            .item
+              .item-info-text =t('page-hybrid.item-info.text21')
+              .item-info-title pqm
+        .show-info
+          .show-info-text.certificate =t('page-pvc.info4')
+      / .box
+      /   h2.h2.transform H8 AluStyle HI+/SI+
+      /   .item
+      /     .item-image.height
+      /       = image_tag 'pvc/image5.jpeg', alt: 'image', title: 'Perfect'
+      / .box
+      /   h2.h2.transform H8 AluGlass HI+/SI+
+      /   .item
+      /     .item-image.height
+      /       = image_tag 'pvc/image6.jpeg', alt: 'image', title: 'Perfect'
+      / .box
+      /   h2.h2.transform H8 Glass HI+/SI+
+      /   .item
+      /     .item-image.height
+      /       = image_tag 'pvc/image7.jpeg', alt: 'image', title: 'Perfect'
+      .box
+        h2.h2
+          - if I18n.locale == :ua
+            =t('page-hybrid.item-main-title8')
+          - else
+            =t('main.products-items.title4')
+          span.red Comfort life
+        .video-wrapper
+          = video_tag 'hybrid/video7.mp4', autoplay: "", muted:"", loop:"", playsinline:"", preload: "auto", class: 'video'
+          a.scale href=image_path("hybrid/video7.mp4") data-fslightbox="video7"
+      .box.last
+        .item.black-bg
+          .item-info
+            .item-info-title Comfort life
+          .last-item-wrapper
+            .last-item-image
+              = image_tag 'hybrid/image8.png', alt: 'image', title: 'Perfect'
+            .cards
+              .item
+                .item-info-icon
+                  = image_tag 'hybrid/icons/icon1.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-hybrid.item-info.text22')
+              .item
+                .item-info-icon
+                  = image_tag 'hybrid/icons/icon2.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-hybrid.item-info.text23')
+              .item
+                .item-info-icon
+                  = image_tag 'pvc/icons/icon1.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-pvc.item-info.text1')
+              .item
+                .item-info-icon
+                  = image_tag 'pvc/icons/icon2.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters Apple HomeKit/Android
+              .item
+                .item-info-icon
+                  = image_tag 'hybrid/icons/icon4.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-pvc.item-info.text2')
+              .item
+                .item-info-icon
+                  = image_tag 'hybrid/icons/icon5.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-hybrid.item-info.text26')
+              .item
+                .item-info-icon
+                  = image_tag 'pvc/icons/icon3.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-pvc.item-info.text3')
+              .item
+                .item-info-icon
+                  = image_tag 'hybrid/icons/icon7.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-hybrid.item-info.text28')
+              .item
+                .item-info-icon
+                  = image_tag 'hybrid/icons/icon8.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-hybrid.item-info.text29')
+              .item
+                .item-info-icon
+                  = image_tag 'pvc/icons/icon4.svg', alt: 'image', title: 'Perfect'
+                .item-info-title.letters =t('page-pvc.item-info.text4')
+        .show-info
+          .show-info-text.life =t('page-pvc.info5')

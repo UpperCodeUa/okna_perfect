@@ -1,0 +1,48 @@
+main.page-person
+  .container
+    section.person
+      .box
+        .image.loading.load
+          = image_tag '', alt: 'Contacts image', title: 'Perfect',class: 'position', data: {src: "/assets/developer/main.jpeg"}
+        .main-item
+          .subtitle =t('navbar.developer')
+    section.benefits.two
+      .box
+        .inner
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/architect/image1.jpeg"}
+            .item-info
+              .item-info-title = t('page-architect.title1')
+              .item-info-text = t('page-architect.text1')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/architect/image2.jpeg"}
+            .item-info
+              .item-info-title = t('page-architect.title2')
+              .item-info-text = t('page-architect.text2')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image7.jpeg"}
+            .item-info
+              .item-info-title = t('main.benefits-items.title7')
+              .item-info-text = t('page-developer.text3')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/partner/image4.jpeg"}
+            .item-info
+              .item-info-title = t('page-partner.title4')
+              .item-info-text = t('page-developer.text4')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/architect/image5.jpeg"}
+            .item-info
+              .item-info-title = t('page-developer.title5')
+              .item-info-text = t('page-architect.text5')
+          .benefits-item
+            .item-image.loading.load
+              = image_tag '', alt: 'Item image', title: 'Perfect', data: {src: "/assets/benefits/image5.jpeg"}
+            .item-info
+              .item-info-title = t('page-architect.title6')
+              .item-info-text = t('page-architect.text6')
+

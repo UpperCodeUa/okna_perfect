@@ -1,0 +1,8 @@
+main.page-contacts
+  .container
+    section.contacts
+      .image.loading.load
+        = image_tag '', alt: 'Contacts image', title: 'Perfect', data: {src: "/assets/contacts.jpeg"}
+      a href="#contacts" class="button" =t('page-contacts.button')
+      .main-item
+        .subtitle =t('footer.contacts')

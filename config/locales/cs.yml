@@ -1,0 +1,551 @@
+cs:
+  de: DE
+  en: EN
+  it: IT
+  es: ES
+  ua: UA
+  nl: NL
+  fr: FR
+  lt: LT
+  cs: CS
+  navbar:
+    windows: Okna
+    doors: Dveře
+    hst: Posuvné systémy
+    facade: Fasády
+    winter_garden: Zimní zahrady
+    partner: Značkový partner
+    architect: Architekt
+    developer: Developer
+    installer: Montážník
+    catalogue: Katalog
+    aluminium: Hliník
+    hybrid: Hybrid
+    pvc: PVC
+    contact_us: Kontaktujte nás
+    with-glass: S sklem
+    without-glass: Bez skla
+    franchise: Franšíza
+  main:
+    subtitle: První společnost Perfect WAD [Windows Aluminum Doors] Group byla založena v roce 2005
+    products: Produkty
+    company: Společnost
+    benefits: Výhody
+    view: Zobrazit
+    wholesale: zveme
+    customers: vás ke spolupráci
+    reference: Reference
+    book: kniha
+    private: soukromý
+    commerce: obchod
+    about: o
+    us: nás
+    our: naše
+    achievements: úspěchy
+    become-partner: Staňte se partnerem
+    cooperation: Výhody spolupráce
+    consultation-btn: Získat konzultaci
+    benefits-items:
+      title1: hodnota
+      text1: Každý den již 17 let zlepšujeme naše produkty a služby, abychom zákazníkům poskytli nejvyšší hodnotu ve spolupráci s námi
+      title2: vysoce kvalitní produkty
+      subtitle2: dokonalé řízení kvality
+      text2: Dokonalé řízení kvality, systém kvality všech procesů založený na Lean Production, zajišťuje vysokou kvalitu našich produktů a služeb
+      title3: rychlá výroba
+      text3: Výroba konstrukcí je významnou výhodou pro naše zákazníky
+      title4: CE
+      text4: Vysoce kvalitní komponenty certifikované v Evropské unii zaručují kvalitu, odolnost a vysoký výkon našich konstrukcí
+      title5: prvotřídní servis
+      text5: Vážíme si každého zákazníka, a proto každý klient dostává maximální podporu od osobního manažera
+      title6: dodávka k zákazníkovi
+      text6: Zajišťujeme dodávku objednávek zákazníkovi i přímo na místo instalace, dodávka je zahrnuta v ceně
+      title7: Jsme schopni být konkurenceschopní
+      text7: Při spolupráci s námi naši klienti získávají vysoce kvalitní konstrukce za nejlepší cenu
+    products-items:
+      title4: Žaluzie
+      title5: Rolety
+    about-us:
+      title: Perfect WAD Group
+      text1: První společnost skupiny Perfect WAD, Perfect WIN, začala vyrábět PVC okna před 17 lety. V roce 2015 začala společnost Perfect AL vyrábět hliníkové konstrukce, hliníkové a větrané fasády.
+      text2: Inovace jsou součástí DNA společnosti. V roce 2013 společnost udělala průlom na trhu uvedením oken založených na 6-komorovém systému s instalační hloubkou 70 mm. V roce 2015 společnost představila exkluzivní a inovativní produkt – žaluzie integrované do izolačního skla (Comfort Life).
+      text3: V roce 2023 společnost uvedla na trh inovativní hybridní okna, která kombinují výhody hliníku a PVC. Celý produktový sortiment společnosti – hliníková okna a konstrukce, hybridní okna a PVC okna – je dostupný na trzích Evropy, USA a Kanady.
+      text4: Máme pobočky v Polsku, Rumunsku a na Ukrajině. Jsme otevřeni spolupráci a snažíme se budovat dlouhodobé vztahy s našimi zákazníky a být spolehlivým partnerem.
+    our-benefits:
+      text1: Vyrábíme až
+      text2: našich produktů pomocí obnovitelné energie.
+      text3: Jedna z prvních společností v Evropě, která to dělá.
+      text4: Více než
+      text5: let
+      text6: vyrábíme okna a dveře
+      text7: Více než
+      text8: milion
+      text9: vyrobených okenních konstrukcí
+      text10: Exportujeme do
+      text11: zemí
+      text12: světa
+  page-contacts:
+    button: Přejít na kontakty
+  page-partner:
+    become: Přečíst více
+    title1: Značkový partner
+    title2: Generování klientů
+    title4: Kompletní sortiment produktů
+    title8: Hotový ÚSPĚŠNÝ byznys. PERFECT FRANCHISE
+    title5: Jedinečnost
+    title6: Exkluzivita
+    text5: Použitím naší značky se budete moci odlišit od ostatních prodejců oken a nabídnout zákazníkům jedinečné prodejní nabídky.
+    text6: Po získání statusu Značkového partnera získáte exkluzivní práva prodávat naše produkty na určeném území
+    text1: Použitím naší značky se budete moci odlišit od ostatních prodejců oken a nabídnout svým zákazníkům jedinečné prodejní nabídky. Po získání statusu Značkového partnera získáte exkluzivní práva prodávat naše produkty na přiděleném území
+    text2: Naši značkoví partneři jsou uvedeni na webových stránkách naší společnosti a všechny klienty odkazujeme přímo na našeho partnera
+    text3: 'Můžete uspokojit potřeby každého klienta nabídkou širokého sortimentu produktů: hliníkových konstrukcí, PVC konstrukcí a novinky – hybridních oken'
+    text8: ""
+  page-architect:
+    title1: Snažíme se být zodpovědným partnerem
+    title2: Realizujte nejmocnější nápady
+    title3: Odměny
+    title4: Architektonická soutěž
+    title5: Technická podpora pro architekty
+    title6: Prvotřídní služba pro každého partnera
+    text1: Zodpovědné partnerství je cestou k úspěchu v každém projektu
+    text2: Naše zkušenosti a kompetence nám umožňují realizovat řešení nejvyšší úrovně technické složitosti
+    text3: Zaregistrujte se a získejte odměny za každý projekt, který dokončíte
+    text4: Každý z našich architektonických partnerů se účastní každoroční soutěže o nejlepší projekt PERFECT FUTURE. Vítězové obdrží speciální odměny
+    text5: Naši technici poskytují odpovídající podporu při hledání nejlepších řešení. Mluvíme jazykem našich partnerů
+    text6: Vážíme si každého partnera, protože každý partner dostává maximální podporu od osobního manažera
+  page-developer:
+    text3: Při spolupráci s námi naši developeři získávají vysoce kvalitní konstrukce za nejlepší cenu
+    text4: "Nabízíme kompletní sortiment řešení pro každý projekt: hliníkové konstrukce, PVC konstrukce a hybridní systémy. To umožňuje developerům získat všechna potřebná řešení od jednoho partnera"
+    title5: Technická podpora pro developery
+  page-installer:
+    title1: Vzájemně výhodné partnerství
+    title2: Nejkratší možná doba
+    title3: Produkty pro místní trhy
+    title4: Nejlepší ceny
+    title5: Online technická podpora pro installatory
+    text1: Pomáháme našim partnerským instalatérům získávat nové zákazníky
+    text2: Našim partnerům poskytujeme nejkratší možnou dobu
+    text3: Vyrábíme produkty, které plně vyhovují požadavkům trhů každé země, ve které působíme
+    text4: Naše nabídky umožňují našim partnerům být konkurenceschopní na místních trzích
+    text5: Naši specialisté poskytují online technickou podporu, i během instalace
+  page-hybrid:
+    title1: co jsou
+    title2: hybridní okna
+    info1: Pokud váš rozpočet není omezený, pak z hlediska trvanlivosti je volba hliníkových konstrukcí nejlepší řešení. Pokud si přejete rozumně investovat prostředky do trvanlivých řešení, pak je volba hybridních oken zřejmá. Plastová okna nejsou z hlediska trvanlivosti rozumnou volbou.
+    info2: Hybridní okna poskytují nejvyšší komfort uvnitř. Třetí těsnicí okruh poskytuje vysokou ochranu proti průvanu/vlhkosti při silných poryvech větru a dešti. Mezi hliníkovými konstrukcemi je tento komfort poskytován pouze profilovými systémy nejvyšší třídy, HI+ úrovně. Levnější hliníkové konstrukce zklamávají kupující nepříjemnými pocity v oblasti hliníkových profilů (zima v zimě, horko v létě).
+    info3: Díky tepelné izolační výkonnosti (teplotní vodivost profilu Uf=1,1) poskytují nejvyšší úspory na vytápění a klimatizaci prostor.
+    info4: Podle vyjádření nejvýznamnějších architektů používání přírodních materiálů, jako je hliník, poskytuje prestižní vzhled domům, což výrazně zvyšuje tržní hodnotu domu jako celku. V rozpočtu domu je rozdíl mezi cenou oken různých tříd pouze několik %. Proto jsou hybridní okna nejvýhodnější investicí z hlediska poměru.
+    info5: Exkluzivní řešení, jako například žaluzie integrované do skleněné jednotky, zvyšují komfort používání hybridních oken na nejvyšší úroveň.
+    item-main-title1: trvanlivost
+    item-main-title2: komfort
+    item-main-title3: efektivita
+    item-main-title4: mechanická bezpečnost
+    item-main-title5: hodnota & cena
+    item-main-title6: certifikáty a záruka
+    item-main-title7: komfortní život
+    item-info:
+      text1: Hliník
+      text2: 50 let
+      text3: Hybridní
+      text4: 35 let
+      text5: 10-20 let
+      text6: Vysoká tepelná izolace
+      text7: Vysoká zvuková izolace
+      text8: Žaluzie integrované do skla Manuální/elektrické (možnosti)
+      text9: Komfortní život
+      text10: Tepelně efektivní profilový systém se 3 těsněními
+      text11: Pasivní sklo
+      text12: Trojité zasklení 48 mm jako standard
+      text13: Hliníkový profil
+      text14: vnější
+      text15: Metalická ochrana proti vnějším vlivům
+      text16: Lepená izolační skleněná jednotka
+      text17: Systém proti vloupání
+      text18: Zámek proti vloupání s klikou Hoppe
+      text19: Komponenty mají certifikáty
+      text20: Systém řízení kvality výroby
+      text21: Systém řízení kvality logistiky
+      text22: Otevření 90°
+      text23: Design & Styl
+      text24: Mechanické ovládání
+      text25: Trvanlivost
+      text26: Bezpečné pro zvířata
+      text27: Dálkové ovládání
+      text28: Vždy čisté
+      text29: Bezpečné pro děti
+    selected: Vybráno
+    technical:
+      title: Technické specifikace
+      text1: Hliník
+      text2: Integrované v PVC
+      text3: Styl
+      text4: Hliníková okna
+      text5: Rám
+      text6: Komfortní život
+      text7: Žaluzie integrované do skleněné jednotky mechanické / elektronické ovládání
+      text8: Pasivní sklo
+      text9: Tepelně efektivní profilový systém se 3 těsnicími okruhy
+      text10: M Bezpečnost
+      text11: 4 systémy v základu
+      text12: Křídlo
+    specifics:
+      text1: hybridní systémy
+      text2: série (kategorie 80-90 mm systémy), lepená dvojsklená jednotka 48 mm, šířka křídla 100 mm, hloubka instalace rámu 82 mm
+      text3: rám a křídlo s integrovaným hliníkem na vnější straně, hliníkový design oken
+      text4: 48 mm skleněná dvojsklená jednotka, doporučeno pro pasivní a energeticky úsporné budovy
+      text5_html: vysoká izolace (ultra-vysoká tepelná izolace <span class="no-wrap">Uf = 1,1</span>)
+      text6: zvuková izolace (ultra-vysoká zvuková izolace)
+      text7: zabudovaná ochrana "proti vloupání"
+      text8: žaluzie integrované do skleněné jednotky, s elektronickým nebo mechanickým ovládáním (volitelné)
+      text9: vyvinuto a certifikováno EU
+      text10: série (kategorie 80-90 mm systémy), hloubka montážního rámu 82 mm
+      text11: rám s integrovaným hliníkem na vnější straně
+      text12: celoskleněné křídlo s integrovaným hliníkem na vnější straně
+      text13: série (kategorie 80-90 mm systémy), hloubka montážního rámu 76 mm
+      text14: celoskleněné křídlo s integrovaným hliníkem na vnější straně, laminovaný nebo bílý rám
+  page-pvc:
+    title2: PERFECT okna
+    info1: Okna z profilových systémů třídy A poskytují nejvyšší úroveň komfortu v interiéru. Okna z profilových systémů třídy B a C (zejména kritická u laminovaných oken) mají vysokou pravděpodobnost deformace, což vede k průvanu a netěsnosti oken a tím pádem k nepohodlí pro obyvatele.
+    info2: Okna z profilových systémů třídy A mají nejlepší ukazatele hospodárnosti (index tepelné vodivosti) pro vytápění a klimatizaci prostor. Na rozdíl od nich mají profilové systémy nižších tříd o 30-50% vyšší tepelné vodivosti, což zvyšuje náklady.
+    info3: V rozpočtu domu je rozdíl v ceně oken různých tříd pouze několik %. Instalace oken třídy A zvyšuje hodnotu a tím pádem i hodnotu domu nebo bytu. To činí výběr oken PerfectWin třídy A výhodnou investicí, která vám přinese radost z užívání po mnoho let.
+    info4: Produkty PerfectWin jsou vyráběny z kvalitních komponentů, jejichž kvalita je potvrzena evropskými certifikáty, s přísným dodržováním technologických norem společnosti Veka. Při objednání okenních konstrukcí a dveří u našeho partnerského prodejce nebo na webových stránkách získáte 5letou záruku na okenní konstrukce.
+    info5: Unikátní a exkluzivní řešení, jako například Perfect Comfort Life - žaluzie integrované do skleněné jednotky, zvyšují komfort používání oken PerfectWin na nejvyšší úroveň.
+    item-info:
+      text1: Ruční ovládání
+      text2: Dlouhá životnost
+      text3: Pilotní řízení
+      text4: Automatické
+    specifics:
+      text1: PVC systémy, VEKA 82
+      text2: série (konkurent k systémům 80-90 mm)
+      text3: profilová třída 3 mm
+      text4: nejlepší tepelná izolace Uf = 1.0, doporučeno pro energeticky úsporné a pasivní domy
+      text5: PVC systémy, VEKA 70
+      text6: série (konkurent k systémům 70-73 mm)
+      text7: vysoká izolace (vysoká tepelná izolace Uf=1.3)
+      text8: PVC systémy, WHS by VEKA
+      text9: profilová třída 2.7 mm
+      text10: vysoká izolace (vysoká tepelná izolace Uf=1.2)
+      text11: PVC systém, VEKA76
+      text12: Vysoká tepelná izolace Uf=1.2, doporučeno pro energeticky efektivní budovy
+      text13: 6 sérií (konkurent k systémům 60 mm)
+      text14: vysoká izolace (vysoká tepelná izolace Uf=1.5)
+  page-aluminium:
+    text1: Tepelná izolace Uw
+    text2: Maximální velikost křídla H*W
+    text3: Maximální šířka křídla
+    text4: Maximální hmotnost křídla
+    text5: Instalace hloubky křídla
+    text6: Maximální tloušťka výplně
+    text7: Těsnost
+    text8: Odolnost proti vodě
+    text9: Stabilita pro větrné zatížení
+    text10: Akustika - Rw(C;Ctr)
+    text11: Trvanlivost
+    windows: Hliníková okna
+  section-help:
+    title3: Podstata vaší žádosti
+    title4: Vyberte pohodlný způsob komunikace s vámi
+    item:
+      title1: Získejte nabídku na podmínkách spolupráce
+      title2: Získejte cenovou nabídku na produkty
+      title3: Získejte technickou radu
+      title4: WhatsApp
+      title5: Telegram
+      title6: Viber
+      title7: E-mail
+      title8: Žádost o videokonferenci
+      title9: Získejte radu ohledně franšízy
+  footer:
+    contacts: Kontakty
+    phone: telefonní číslo
+    adress: adresa
+    call: Odeslat
+    social: sociální
+    form:
+      title: kontaktujte mě. Jsem
+      subtitle: Jsem
+      label1: Zákazník
+      label2: Prodejce
+      placeholder1: Zadejte své jméno
+      placeholder2: Popište svou otázku
+  error:
+    title: Oops! Ztraceni v digitální divočině?
+    text: Omlouváme se za tuto 404 odbočku. Stiskněte zpětné tlačítko nebo navštivte naši domovskou stránku, abyste se dostali zpět na správnou cestu. Děkujeme za vaši trpělivost!
+    back: Zpět
+    home: Domů
+  meta:
+    home:
+      title: Perfect WAD Group
+      description: První společnost Perfect WAD [Windows Aluminum Doors] Group byla založena v roce 2005
+  page-franchise:
+    intro:
+      title: Staňte se součástí zkušené a úspěšné společnosti
+      subtitle: Franšíza pro salon specializující se na prodej oken „Perfect WAD Group“
+      btn: detaily franšízy
+      text1: roky na trhu
+      text2: salony
+      text3: vyrobené struktury
+    leadership:
+      title1: Na cestě k
+      title2: " vedení"
+      text1: "Základem společnosti 'Perfect WAD Group' je:"
+      text2: kvalitní produkt
+      text3: silná zákaznická podpora
+      text4: neustálé zlepšování
+      text5: "Dnes se naše společnost pyšní tím, že díky pokročilým technologiím, profesionálním inženýrům a kreativním designérům můžeme zákazníkům nabídnout okna, která zosobňují slovo: 'Bezchybné.'"
+    advantages:
+      title1: Výhody franšízy
+      title2: " franšízy “Perfect WAD Group”"
+      text1: Vlastní stavební výroba (PVC a hliníková okna a dveře, rolety, posuvné a fasádní systémy)
+      text2: Tým zkušených specialistů
+      text3: Jasné pochopení trhu, potřeb spotřebitelů a moderních trendů
+      text4: Jednoduchý a srozumitelný obchodní model
+      text5: Nízká investice a rychlá návratnost
+      text6: Vylepšené standardy obchodních procesů
+      text7: Školení personálu
+    importantly:
+      title1: A co je
+      title2: " nejdůležitější:"
+      text1: víme, co je franšízová síť a jak funguje
+      text2: Pro rychlý start a výnosný provoz vašeho podnikání využíváme zkušenosti z 30 fungujících franšízových salonů “Perfect WAD Group”
+    partners:
+      title1: Spolupráce a logistika s
+      title2: " partnery ve 12 zemích po celém světě"
+      country1: Španělsko
+      country2: Itálie
+      country3: Belgie
+      country4: Nizozemsko
+      country5: Německo
+      country6: Švýcarsko
+      country7: USA
+      country8: Litva
+      country9: Polsko
+      country10: Francie
+      country11: Kanada
+      country12: Ukrajina
+      country13: Maďarsko
+      country14: Česká republika
+      country15: Slovensko
+      submit: ODEŠLETE SVOU PŘIHLÁŠKU
+    salon:
+      title1: Váš
+      title2: " salon “Perfect WAD Group”"
+      text1: Plocha je
+      text2: 30 m2
+      text3: Personál je
+      text4: 1 prodejce-konzultant
+      text5: Výstavní sortiment je
+      text6: připraven týmem centrály
+      text7: Nachází se
+      text8: v oblasti s konstantním provozem a rozvinutou infrastrukturou
+      text9: Čistý zisk
+      text10: začíná od 3500 € měsíčně
+      btn: FINANČNÍ MODEL
+    support:
+      title1: Podpora od
+      title2: " společnosti"
+      text1: Doporučení pro nalezení místnosti, koordinace
+      text2: Poskytnutí doporučení na výrobu exponátů pro výstavní vzorky
+      text3: Předání standardů podnikových procesů
+      text4: Pokyny pro nalezení a nábor zaměstnanců
+      text5: Školení franšízantů a personálu salonu na Perfect Academy, pravidelný profesní rozvoj
+      text6: Doprava produktů do skladu franšízanta
+      text7: Instalace CRM systému, účetního systému, programu pro výpočty oken
+      text8: Zařazení salonu franšízanta do celosvětové marketingové strategie
+      text9: Zveřejnění informací o salonu na oficiálních webových stránkách
+      text10: Poskytnutí hotových a vývoj nových návrhů reklamních produktů
+      text11: Poskytování služeb cílené a kontextové reklamy, propagace na sociálních sítích
+      text12: Výroba produktů a individuálních objednávek
+      text13: Vývoj materiálů pro prezentaci produktů
+      text14: Analýza práce salonu
+      text15: Poskytování doporučení pro zlepšení prodeje
+      text16: Práce s reakcemi zákazníků
+    slider:
+      text: BUDEME PRACOVAT V SYNERGII, ABYCHOM DOSÁHLI NEJLEPŠÍCH VÝSLEDKŮ
+    tasks:
+      title1: Úkoly partnera
+      title2: " “Perfect WAD Group”"
+      subtitle: "Vaše úkoly jako franšízant “Perfect WAD Group” budou zahrnovat:"
+      text1: Podepsání nájemní smlouvy
+      text2: Najímání zaměstnanců, sledování jejich práce
+      text3: Zpracování příchozích žádostí
+      text4: Poradenství klientům, provádění prezentací produktů
+      text5: Skladování produktů ve skladu
+      text6: Spolupráce s montážními týmy na instalaci produktů u klienta
+      text7: Dodržování firemních standardů
+      text8: Pořádání místních marketingových akcí
+    stages:
+      title1: Etapy otevření
+      title2: " salonu “Perfect WAD Group”"
+      stage1: Diskuze o podmínkách spolupráce a podpis franšízové smlouvy
+      stage2: Podepsání nájemní smlouvy
+      stage3: Provádění oprav, instalace zařízení a výstavních vzorků
+      stage4: Hledání a školení personálu
+      stage5: Instalace CRM systému a dalších programů
+      stage6: Spuštění reklamní kampaně před otevřením
+      stage7: Zahájení provozu salonu
+      stage8: Sedm kroků
+      stage9: k zahájení udržitelného podnikání
+    join:
+      title1: Připojte se k “Perfect WAD Group”
+      title2: " dnes!"
+      subtitle: Vyplňte formulář nebo nás kontaktujte pro podrobné projednání podmínek franšízy
+      name: Jméno Příjmení
+      number: Telefonní číslo
+      code: Kód země
+      email: E-mail
+      country: Země
+      city: Město
+      send: ODESLAT
+    fin-model:
+      text1: Investice
+      text2: €10100
+      text3: Přístup k soběstačnosti
+      text4: od 1–2 měsíců
+      text5: Návratnost investice
+      text6: od 6 měsíců
+      text7: Royalty
+      text8: 1 % z příjmu
+      text9: Čistý zisk
+      text10: od €3500
+    nav:
+      text1: O nás
+      text2: Naše výhody
+      text3: Formát
+      text4: Podpora od společnosti
+      text5: Etapy otevření
+      text6: Kontakty
+    opening:
+      title1: Otevření
+      title2: " Perfect salonu"
+      subtitle: Otevření prvního oficiálního salonu “Perfect” ve Španělsku!
+      text_html: Toto není jen nová kapitola v historii naší značky, ale také významný krok ve podpoře ukrajinského podnikání na mezinárodní úrovni. Jsme vděční všem, kteří nám věří a pomáhají přivést naše nápady k životu. <br> Zvláštní poděkování našim franšízantům, kteří vynaložili maximální úsilí. <br> Gratulujeme k otevření salonu a přejeme vám prosperitu a zisk! <br> Společně jsme silnější a schopní velkých úspěchů!
+  popup:
+    subtitle1: získejte konzultaci
+    subtitle2: zanechte žádost
+    title1: ZANECHTE ŽÁDOST O KONZULTACI
+    title2: kalkulace od výrobce do 24 hodin!
+    placeholder: Zadejte své jméno
+  sliding:
+    title: PVC posuvné systémy
+    text1: Tloušťka vnější stěny
+    text2: Tepelná vodivost
+    text3: Tříkomorový systém
+    text4: Dvojskla
+    text5: Pozinkovaná tvarovaná výztuha
+    text6: Těsnění drážky
+    text7: Ochrana proti prachu
+    text8: Kování
+    text9: Základna pro laminaci
+    text10: Bílá
+    text11: Karamelová
+    text12: Hnědá
+    text13: Kování
+    text14: Maximální hmotnost křídla
+    text15: Typ
+    text16: Šířka min
+    text17: Šířka max
+    text18: Výška min
+    text19: Výška max
+    text20: Profilový systém
+    text21: Antracitová
+    text22: Maximální šířka křídla
+    text23: Hmotnost dvojskla (křídla)
+    text24: Maximální plocha
+    text25: Maximální šířka pro bílé
+    text26: Maximální šířka pro barevné
+    text27: Maximální výška pro bílé
+    text28: Maximální výška pro barevné
+    text29: Minimální výška podle rámu
+    text30: Minimální šířka podle rámu Schéma A
+    text31: Minimální šířka podle rámu Schéma K
+    text32: Minimální šířka podle rámu Schéma C
+    opening: možnosti otevírání
+    tild: Sklopný a
+    lift: Zvedací a
+    slide: posuvný systém
+  doors:
+    alum:
+      subtitle1: Hliníkové dveře bez skla
+      info1: Plné hliníkové dveře jsou pevné a estetické konstrukce, které se skládají z rámu a hliníkového výplně, bez skla nebo prosklení. Tyto dveře se vyznačují pevností a vynikající odolností. Pevné hliníkové dveře jsou oblíbenou volbou v různých typech budov, včetně komerční, průmyslové a obytné výstavby. Jejich pevnost, odolnost a schopnost přizpůsobit se různým požadavkům je činí ceněným řešením na trhu dveří.
+      subtitle2: Prosklené hliníkové dveře
+      info2: Prosklené hliníkové dveře jsou lehké, což je činí snadno instalovatelné a použitelná. Hliníkové profily jsou zároveň mimořádně odolné, což zaručuje dlouhodobý provoz. Hliníkové dveře jsou také odolné vůči korozi, což je činí vhodnými pro použití v různých povětrnostních podmínkách, včetně u moře. Prosklené panely umožňují do místností dostatek přirozeného světla, což je činí vstřícnějšími a útulnějšími.
+    pvc:
+      subtitle1: PVC dveře bez skla
+      info1: Pevné PVC dveře jsou k dispozici v různých designech, tvarech a barvách, což umožňuje přizpůsobit je interiérovému designu a individuálním preferencím. Je to praktické, odolné a všestranné řešení, které kombinuje mnoho výhod, jako je tepelná a zvuková izolace, snadná údržba a dostupnost různých designových možností. Jsou ideální volbou pro mnoho typů místností, jak v domácnosti, tak i v podnikání.
+      subtitle2: Prosklené PVC dveře
+      info2: Prosklené PVC dveře jsou stylovým a funkčním řešením, které kombinuje estetiku s tepelnou a zvukovou izolací v místnostech. Vyrobeny z odolného plastu, tyto dveře nabízejí elegantní vzhled, který se hodí do mnoha typů interiérů, jak moderních, tak tradičních. Prosklené panely umožňují do místností dostatek přirozeného světla, což je činí vstřícnějšími a útulnějšími.
+  blinds:
+    title: Žaluzie
+    plastic: PLAST
+    information: Informace
+    text1: Systém OPOTERM je navržen pro instalaci v novostavbách a při rekonstrukci stávajících budov. Konstrukce systému OPOTERM umožňuje plně otevřenou, částečně uzavřenou nebo plně uzavřenou instalaci rolet. Aby byla zajištěna maximální tepelná izolace, je v boxu systému OPOTERM po celé délce boxu a bočních krytech nainstalována dodatečná izolace. Jednou z možností je použití moskytiéry zabudované do boxu rolety (MOSKITO systém). Integrovaný systém zajišťuje nezávislý chod rolet a MOSKITO moskytiéry. Komponenty použité pro výrobu rolet Aluprof jsou certifikovány pro splnění příslušných technických tolerancí a jsou k dispozici zákazníkům.
+    text2: Rozměry plastového boxu
+    text3: "Výška: 170 mm, 210 mm, 240 mm, šířka: 230 mm, 255 mm"
+    item1: Částečně skrytý box
+    item2: Úplně skrytý box
+    item3: Otevřený box
+    item4: Box s integrovaným moskytiérovým systémem
+    aluminium: Hliník
+    text4: Systém je navržen pro použití ve stávajících budovách. Tkanina je navinuta v hliníkovém boxu, který je instalován na stěnu nebo do okenní niky. Hliníkové profily jsou vyrobeny z vysoce kvalitního hliníkového plechu potaženého PUR-PA lakem a jsou vysoce odolné vůči oděru a povětrnostním podmínkám. Výplňová pěna poskytuje profilům dobré tepelné a zvukové izolační parametry. Spolehlivá konstrukce rolet a kvalitní výběr materiálů poskytují efektivní ochranu proti nežádoucím hostům.
+    text5: Rozměry plastového boxu
+    text6: "Výška a šířka: 150 mm, 165 mm, 180 mm, 205 mm"
+    text7: Roleta může být ovládána ručně nebo elektricky pomocí motoru.
+    item5: Povrchová instalace
+    item6: Instalace do otvoru
+    available: K dispozici
+    colors: Barvy
+    span: Široká škála standardních barev
+    text8: "uspokojí i ty nejnáročnější zákazníky. Barevné vrstvy jsou aplikovány pomocí technologie práškového lakování."
+    color1: Bílá
+    color2: Stříbrná
+    color3: Antracitová
+    color4: Zlatý dub
+    color5: Hnědá
+    types: Typy
+    control: Ovládání
+    type1: Jarní-inerciální mechanismus
+    type2: Mechanické ovládání
+    type3: Rolety s plastovým boxem / rolety s hliníkovým rámem. Kazeta s páskou nebo řetězovým pohonem
+    type4: Páska s kazetou
+    type5: Mechanické ovládání
+    type6: Tento mechanismus umožňuje uživatelům ručně ovládat rolety pomocí pásky uložené v kazetovém systému, což poskytuje kompaktní a uživatelsky přívětivé řešení.
+    type7: Klíčový spínač
+    type8: Automatické ovládání
+    type9: Rolety s plastovým boxem / rolety s hliníkovým boxem
+    type10: Dálkové ovládání
+    type11: Automatické ovládání
+    type12: Rolety s plastovým boxem / rolety s hliníkovým boxem
+  show:
+    card1: Linie
+    card2: Trendová linie
+    card3: Materiál
+    card4: PVC
+    card5: Výrobce
+    card6: Dindecor
+    types-of: Typy
+    fillings: výplně dveří
+    type1: Oboustranná překližková výplň
+    type2: Jednostranná překližková výplň
+    type3: Výplň ve formě desky
+    transom: Nadsvětlík
+    type4: Dveře bez nadsvětlíku
+    type5: Dveře s proskleným nadsvětlíkem
+    type6: Dveře s plným nadsvětlíkem
+    door: Dveře
+    types: typy
+    type7: "Jednoduché: Pravé dveře otevírají ven"
+    type8: "Jednoduché levé dveře otevírají ven"
+    type9: "Jednoduché: Pravé dveře otevírají dovnitř"
+    type10: "Jednoduché: Levé dveře otevírají dovnitř"
+    type11: "Dvoukřídlé: Pravé dveře otevírají ven"
+    type12: "Dvoukřídlé: Levé dveře otevírají ven"
+    type13: "Dvoukřídlé: Pravé dveře otevírají dovnitř"
+    type14: "Dvoukřídlé: Levé dveře otevírají dovnitř"
+    opening: Otevírání
+    method: Metoda
+    type15: Rukojeť/rukojeť
+    type16: Rukojeť/úchytka
+    type17: Úchytka/úchytka
+    type18: Rukojeť/dveřní klika
+

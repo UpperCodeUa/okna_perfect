@@ -1,0 +1,10 @@
+h1 = 'Edit Partner'
+
+= simple_form_for [:admin, @partner], url: admin_partner_path do |f|
+  = render 'admin/layouts/error_messages', object: f.object
+  p = @partner_presenter.full_name
+  p = @partner_presenter.registration_date
+  = f.input :email, label: 'Email'
+  = f.select :partner_role, User.partner_roles.keys.map { |role| [role.humanize, role] }, label: 'Role'
+  br
+  = f.button :submit, 'Update'

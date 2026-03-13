@@ -1,0 +1,9 @@
+main.page-notfound
+  .container
+    .error-wrapper
+      .error-content
+        h1 = t('error.title')
+        p.error-text = t('error.text')
+        .error-buttons
+          = link_to  t('error.back') , root_path, class: 'back'
+          = link_to  t('error.home') , root_path, class: 'home'

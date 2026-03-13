@@ -1,0 +1,426 @@
+main
+  .container
+    section.top.category
+      .box
+        .inner-wrapper
+          .swiper.hybrid
+            .swiper-wrapper
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/doors/slider/image1.jpeg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/doors/slider/image2.jpeg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/doors/slider/image3.jpeg"}
+              .swiper-slide.loading.load
+                = image_tag '', alt: 'Slider image', title: 'Perfect', data: {src: "/assets/doors/slider/image4.jpeg"}
+            .button-box
+              .swiper-pagination
+              .swiper-button-prev
+              .swiper-button-next
+          .main-item
+            .subtitle =t('doors.alum.subtitle2')
+    section.service.category
+      h2.h2
+        =t('main.about')
+        span.red
+          =t('main.products')
+      .show-info
+        .show-info-text.durability =t('doors.alum.info2')
+    section.product-items.margin
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image1.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1101
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image2.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1301
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image3.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1401
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image4.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1701
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image5.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1702
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image6.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2201
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image7.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2802
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image8.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2802 WD
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image9.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2802 FR
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image10.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2802 BS
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image11.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2901
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image12.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5006
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image13.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5007
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image14.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5007 ST
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image15.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5008 ST
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image16.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5008 WB
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image17.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5010
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image18.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5010 BS
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image19.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5019
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image20.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5022
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image21.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5026
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image22.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5026 BS
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image23.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5026 WD
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image24.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5031
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image25.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5031 ST
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image26.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5032
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image27.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5038
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image28.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5040
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image29.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5041
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image30.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5042
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image31.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5045
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image32.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5046
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image33.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5046 FR
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image34.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6008
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image35.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6010
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image36.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6015
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image37.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6100
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image38.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6101
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image39.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6102
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image40.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6102 FR
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image41.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6103
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image42.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6105
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image43.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6106
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image44.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6107
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image45.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6109
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image46.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6109 BS
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image47.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6110
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image48.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6112
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image49.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6112 BS
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image50.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6112 WD
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image51.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6113 BS
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image52.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6113 WD
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image53.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6114
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image54.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1301 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image55.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 1401 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image56.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 2802 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image57.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5007 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image58.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 5026 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image59.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6002 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image60.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6102 Black
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image61.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model GL01
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image62.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model GL02
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image63.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model GL03
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image64.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model GL05
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image65.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model GL06
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image66.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model LL04
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image67.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model 6116 PWZ
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image68.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model RL01
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image69.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model RL04
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image70.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model RL05
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image71.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model RL06
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image72.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SL03
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image73.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SL04
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image74.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SK04 BETON
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image75.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SK04 CORTEN
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image76.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SK05 CONCRETE
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image77.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SK05 CORTEN
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image78.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model SK05 GREY
+        / = link_to t('main.view'), show_path, class: "button"
+      .product-item
+        .image
+          = image_tag 'doors/aluminium/with-glass/image79.webp', alt: 'Door image', title: 'Perfect door'
+        .name Model BE02
+        / = link_to t('main.view'), show_path, class: "button"
+
+
