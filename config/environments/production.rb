@@ -92,7 +92,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.hosts << '142.93.107.113'
-  config.hosts << 'okna-perfect.cz'
-  config.hosts << "www.okna-perfect.cz"
+  config.hosts << '157.230.123.92'
+  # config.hosts << 'okna-perfect.cz'
+  # config.hosts << "www.okna-perfect.cz"
 end

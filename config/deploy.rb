@@ -1,4 +1,4 @@
-server '142.93.107.113', port: 22, roles: %i[web app db], primary: true
+server '157.230.123.92', port: 22, roles: %i[web app db], primary: true
 
 set :repo_url,        'git@github.com:UpperCodeUa/okna_perfect.git'
 set :application,     'okna_perfect'
