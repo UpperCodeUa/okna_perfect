@@ -15,4 +15,4 @@ production:
   <<: *default
   database: okna_perfect_production
   username: okna_perfect
-  password: okna_perfect2025upper
+  password: okna_perfect2026upper
