@@ -5,9 +5,8 @@ class SendFormController < ApplicationController
 
   def create
     if captcha_verified?(params['g-recaptcha-response'])
-      Kommo::LeadGeneratorService.new(params, session, request).process_form
-      TelegramSenderService.new(params).call
-
+      # Kommo::LeadGeneratorService.new(params, session, request).process_form
+      # TelegramSenderService.new(params).call
     else
       flash[:alert] = 'Failed to pass the captcha. Please try again.'
     end
